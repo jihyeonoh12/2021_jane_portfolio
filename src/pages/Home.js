@@ -1,12 +1,19 @@
+
 import React from 'react';
+import Navbar from '../components/Navbar'
+import Body from '../components/Body'
+import Herobanner from '../components/Herobanner'
+import Footer from '../components/Footer'
 
-const Home = () => {
+function Home () {
     return (
-        <div>
-            This is Home page
-        </div>
-
+    <div className="App">
+      <Navbar />
+      <Herobanner />
+      <Body />
+      <Footer />
+    </div>
     )
 }
 
-export default Home;
+export default Home

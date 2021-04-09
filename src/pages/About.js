@@ -1,12 +1,15 @@
+
 import React from 'react';
+import Navbar from '../components/Navbar'
+import Herobanner from '../components/Herobanner'
 
-const About = () => {
+function About () {
     return (
-        <div>
-            This is About page
-        </div>
-
+    <div className="App">
+      <Navbar />
+      <Herobanner />
+    </div>
     )
 }
 
-export default About;
+export default About
