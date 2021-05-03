@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/2021_jane_portfolio/static/css/main.f20840e2.chunk.css",
-    "main.js": "/2021_jane_portfolio/static/js/main.b345f830.chunk.js",
-    "main.js.map": "/2021_jane_portfolio/static/js/main.b345f830.chunk.js.map",
-    "runtime-main.js": "/2021_jane_portfolio/static/js/runtime-main.340a5934.js",
-    "runtime-main.js.map": "/2021_jane_portfolio/static/js/runtime-main.340a5934.js.map",
+    "main.css": "/2021_jane_portfolio/static/css/main.fdea5f8c.chunk.css",
+    "main.js": "/2021_jane_portfolio/static/js/main.b7e21479.chunk.js",
+    "main.js.map": "/2021_jane_portfolio/static/js/main.b7e21479.chunk.js.map",
+    "runtime-main.js": "/2021_jane_portfolio/static/js/runtime-main.d901d38e.js",
+    "runtime-main.js.map": "/2021_jane_portfolio/static/js/runtime-main.d901d38e.js.map",
     "static/js/2.19a4d7e9.chunk.js": "/2021_jane_portfolio/static/js/2.19a4d7e9.chunk.js",
     "static/js/2.19a4d7e9.chunk.js.map": "/2021_jane_portfolio/static/js/2.19a4d7e9.chunk.js.map",
-    "static/js/3.114a6f74.chunk.js": "/2021_jane_portfolio/static/js/3.114a6f74.chunk.js",
-    "static/js/3.114a6f74.chunk.js.map": "/2021_jane_portfolio/static/js/3.114a6f74.chunk.js.map",
+    "static/js/3.606af3c5.chunk.js": "/2021_jane_portfolio/static/js/3.606af3c5.chunk.js",
+    "static/js/3.606af3c5.chunk.js.map": "/2021_jane_portfolio/static/js/3.606af3c5.chunk.js.map",
     "index.html": "/2021_jane_portfolio/index.html",
-    "static/css/main.f20840e2.chunk.css.map": "/2021_jane_portfolio/static/css/main.f20840e2.chunk.css.map",
+    "static/css/main.fdea5f8c.chunk.css.map": "/2021_jane_portfolio/static/css/main.fdea5f8c.chunk.css.map",
     "static/js/2.19a4d7e9.chunk.js.LICENSE.txt": "/2021_jane_portfolio/static/js/2.19a4d7e9.chunk.js.LICENSE.txt",
     "static/media/2020 Protein Plus - hero.4e0d51ce.jpg": "/2021_jane_portfolio/static/media/2020 Protein Plus - hero.4e0d51ce.jpg",
     "static/media/thumbnail_protein_plus.60d0f0fb.jpg": "/2021_jane_portfolio/static/media/thumbnail_protein_plus.60d0f0fb.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.340a5934.js",
+    "static/js/runtime-main.d901d38e.js",
     "static/js/2.19a4d7e9.chunk.js",
-    "static/css/main.f20840e2.chunk.css",
-    "static/js/main.b345f830.chunk.js"
+    "static/css/main.fdea5f8c.chunk.css",
+    "static/js/main.b7e21479.chunk.js"
   ]
 }
