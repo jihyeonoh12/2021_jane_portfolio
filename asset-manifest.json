@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/2021_jane_portfolio/static/css/main.f20840e2.chunk.css",
-    "main.js": "/2021_jane_portfolio/static/js/main.bf8c89e9.chunk.js",
-    "main.js.map": "/2021_jane_portfolio/static/js/main.bf8c89e9.chunk.js.map",
+    "main.js": "/2021_jane_portfolio/static/js/main.b345f830.chunk.js",
+    "main.js.map": "/2021_jane_portfolio/static/js/main.b345f830.chunk.js.map",
     "runtime-main.js": "/2021_jane_portfolio/static/js/runtime-main.340a5934.js",
     "runtime-main.js.map": "/2021_jane_portfolio/static/js/runtime-main.340a5934.js.map",
     "static/js/2.19a4d7e9.chunk.js": "/2021_jane_portfolio/static/js/2.19a4d7e9.chunk.js",
@@ -12,12 +12,13 @@
     "index.html": "/2021_jane_portfolio/index.html",
     "static/css/main.f20840e2.chunk.css.map": "/2021_jane_portfolio/static/css/main.f20840e2.chunk.css.map",
     "static/js/2.19a4d7e9.chunk.js.LICENSE.txt": "/2021_jane_portfolio/static/js/2.19a4d7e9.chunk.js.LICENSE.txt",
+    "static/media/2020 Protein Plus - hero.4e0d51ce.jpg": "/2021_jane_portfolio/static/media/2020 Protein Plus - hero.4e0d51ce.jpg",
     "static/media/thumbnail_protein_plus.60d0f0fb.jpg": "/2021_jane_portfolio/static/media/thumbnail_protein_plus.60d0f0fb.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.340a5934.js",
     "static/js/2.19a4d7e9.chunk.js",
     "static/css/main.f20840e2.chunk.css",
-    "static/js/main.bf8c89e9.chunk.js"
+    "static/js/main.b345f830.chunk.js"
   ]
 }
