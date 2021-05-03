@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/2021_jane_portfolio/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/2021_jane_portfolio/static/js/main.b2aaf8f4.chunk.js",
-    "main.js.map": "/2021_jane_portfolio/static/js/main.b2aaf8f4.chunk.js.map",
-    "runtime-main.js": "/2021_jane_portfolio/static/js/runtime-main.3896ffa0.js",
-    "runtime-main.js.map": "/2021_jane_portfolio/static/js/runtime-main.3896ffa0.js.map",
-    "static/js/2.e054cb19.chunk.js": "/2021_jane_portfolio/static/js/2.e054cb19.chunk.js",
-    "static/js/2.e054cb19.chunk.js.map": "/2021_jane_portfolio/static/js/2.e054cb19.chunk.js.map",
-    "static/js/3.c229a218.chunk.js": "/2021_jane_portfolio/static/js/3.c229a218.chunk.js",
-    "static/js/3.c229a218.chunk.js.map": "/2021_jane_portfolio/static/js/3.c229a218.chunk.js.map",
+    "main.css": "/2021_jane_portfolio/static/css/main.f20840e2.chunk.css",
+    "main.js": "/2021_jane_portfolio/static/js/main.58f2936b.chunk.js",
+    "main.js.map": "/2021_jane_portfolio/static/js/main.58f2936b.chunk.js.map",
+    "runtime-main.js": "/2021_jane_portfolio/static/js/runtime-main.340a5934.js",
+    "runtime-main.js.map": "/2021_jane_portfolio/static/js/runtime-main.340a5934.js.map",
+    "static/js/2.ae5ab367.chunk.js": "/2021_jane_portfolio/static/js/2.ae5ab367.chunk.js",
+    "static/js/2.ae5ab367.chunk.js.map": "/2021_jane_portfolio/static/js/2.ae5ab367.chunk.js.map",
+    "static/js/3.114a6f74.chunk.js": "/2021_jane_portfolio/static/js/3.114a6f74.chunk.js",
+    "static/js/3.114a6f74.chunk.js.map": "/2021_jane_portfolio/static/js/3.114a6f74.chunk.js.map",
     "index.html": "/2021_jane_portfolio/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/2021_jane_portfolio/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.e054cb19.chunk.js.LICENSE.txt": "/2021_jane_portfolio/static/js/2.e054cb19.chunk.js.LICENSE.txt"
+    "static/css/main.f20840e2.chunk.css.map": "/2021_jane_portfolio/static/css/main.f20840e2.chunk.css.map",
+    "static/js/2.ae5ab367.chunk.js.LICENSE.txt": "/2021_jane_portfolio/static/js/2.ae5ab367.chunk.js.LICENSE.txt",
+    "static/media/thumbnail_protein_plus.60d0f0fb.jpg": "/2021_jane_portfolio/static/media/thumbnail_protein_plus.60d0f0fb.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3896ffa0.js",
-    "static/js/2.e054cb19.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.b2aaf8f4.chunk.js"
+    "static/js/runtime-main.340a5934.js",
+    "static/js/2.ae5ab367.chunk.js",
+    "static/css/main.f20840e2.chunk.css",
+    "static/js/main.58f2936b.chunk.js"
   ]
 }
