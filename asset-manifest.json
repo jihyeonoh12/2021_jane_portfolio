@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/2021_jane_portfolio/static/css/main.35964099.chunk.css",
-    "main.js": "/2021_jane_portfolio/static/js/main.dc5e627e.chunk.js",
-    "main.js.map": "/2021_jane_portfolio/static/js/main.dc5e627e.chunk.js.map",
+    "main.css": "/2021_jane_portfolio/static/css/main.977ca04d.chunk.css",
+    "main.js": "/2021_jane_portfolio/static/js/main.69c01fdd.chunk.js",
+    "main.js.map": "/2021_jane_portfolio/static/js/main.69c01fdd.chunk.js.map",
     "runtime-main.js": "/2021_jane_portfolio/static/js/runtime-main.d901d38e.js",
     "runtime-main.js.map": "/2021_jane_portfolio/static/js/runtime-main.d901d38e.js.map",
     "static/js/2.19a4d7e9.chunk.js": "/2021_jane_portfolio/static/js/2.19a4d7e9.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.606af3c5.chunk.js": "/2021_jane_portfolio/static/js/3.606af3c5.chunk.js",
     "static/js/3.606af3c5.chunk.js.map": "/2021_jane_portfolio/static/js/3.606af3c5.chunk.js.map",
     "index.html": "/2021_jane_portfolio/index.html",
-    "static/css/main.35964099.chunk.css.map": "/2021_jane_portfolio/static/css/main.35964099.chunk.css.map",
+    "static/css/main.977ca04d.chunk.css.map": "/2021_jane_portfolio/static/css/main.977ca04d.chunk.css.map",
     "static/js/2.19a4d7e9.chunk.js.LICENSE.txt": "/2021_jane_portfolio/static/js/2.19a4d7e9.chunk.js.LICENSE.txt",
     "static/media/2020 Protein Plus - hero.4e0d51ce.jpg": "/2021_jane_portfolio/static/media/2020 Protein Plus - hero.4e0d51ce.jpg",
     "static/media/thumbnail_protein_plus.60d0f0fb.jpg": "/2021_jane_portfolio/static/media/thumbnail_protein_plus.60d0f0fb.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.d901d38e.js",
     "static/js/2.19a4d7e9.chunk.js",
-    "static/css/main.35964099.chunk.css",
-    "static/js/main.dc5e627e.chunk.js"
+    "static/css/main.977ca04d.chunk.css",
+    "static/js/main.69c01fdd.chunk.js"
   ]
 }
