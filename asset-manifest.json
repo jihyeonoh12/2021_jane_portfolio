@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/2021_jane_portfolio/static/css/main.977ca04d.chunk.css",
-    "main.js": "/2021_jane_portfolio/static/js/main.e10d450e.chunk.js",
-    "main.js.map": "/2021_jane_portfolio/static/js/main.e10d450e.chunk.js.map",
+    "main.js": "/2021_jane_portfolio/static/js/main.c8eddb03.chunk.js",
+    "main.js.map": "/2021_jane_portfolio/static/js/main.c8eddb03.chunk.js.map",
     "runtime-main.js": "/2021_jane_portfolio/static/js/runtime-main.d901d38e.js",
     "runtime-main.js.map": "/2021_jane_portfolio/static/js/runtime-main.d901d38e.js.map",
     "static/js/2.a1af7340.chunk.js": "/2021_jane_portfolio/static/js/2.a1af7340.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.d901d38e.js",
     "static/js/2.a1af7340.chunk.js",
     "static/css/main.977ca04d.chunk.css",
-    "static/js/main.e10d450e.chunk.js"
+    "static/js/main.c8eddb03.chunk.js"
   ]
 }
