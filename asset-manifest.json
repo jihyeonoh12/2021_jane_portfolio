@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/2021_jane_portfolio/static/css/main.3c611d42.chunk.css",
-    "main.js": "/2021_jane_portfolio/static/js/main.e8dea6b9.chunk.js",
-    "main.js.map": "/2021_jane_portfolio/static/js/main.e8dea6b9.chunk.js.map",
+    "main.css": "/2021_jane_portfolio/static/css/main.2355132d.chunk.css",
+    "main.js": "/2021_jane_portfolio/static/js/main.5a084570.chunk.js",
+    "main.js.map": "/2021_jane_portfolio/static/js/main.5a084570.chunk.js.map",
     "runtime-main.js": "/2021_jane_portfolio/static/js/runtime-main.c6beee7c.js",
     "runtime-main.js.map": "/2021_jane_portfolio/static/js/runtime-main.c6beee7c.js.map",
-    "static/js/2.ac02b901.chunk.js": "/2021_jane_portfolio/static/js/2.ac02b901.chunk.js",
-    "static/js/2.ac02b901.chunk.js.map": "/2021_jane_portfolio/static/js/2.ac02b901.chunk.js.map",
+    "static/js/2.983c4ae9.chunk.js": "/2021_jane_portfolio/static/js/2.983c4ae9.chunk.js",
+    "static/js/2.983c4ae9.chunk.js.map": "/2021_jane_portfolio/static/js/2.983c4ae9.chunk.js.map",
     "static/js/3.16df9cc0.chunk.js": "/2021_jane_portfolio/static/js/3.16df9cc0.chunk.js",
     "static/js/3.16df9cc0.chunk.js.map": "/2021_jane_portfolio/static/js/3.16df9cc0.chunk.js.map",
     "index.html": "/2021_jane_portfolio/index.html",
-    "static/css/main.3c611d42.chunk.css.map": "/2021_jane_portfolio/static/css/main.3c611d42.chunk.css.map",
-    "static/js/2.ac02b901.chunk.js.LICENSE.txt": "/2021_jane_portfolio/static/js/2.ac02b901.chunk.js.LICENSE.txt",
+    "static/css/main.2355132d.chunk.css.map": "/2021_jane_portfolio/static/css/main.2355132d.chunk.css.map",
+    "static/js/2.983c4ae9.chunk.js.LICENSE.txt": "/2021_jane_portfolio/static/js/2.983c4ae9.chunk.js.LICENSE.txt",
     "static/media/2020 Protein Plus - content1.233de0c6.png": "/2021_jane_portfolio/static/media/2020 Protein Plus - content1.233de0c6.png",
     "static/media/2020 Protein Plus - hero.4e0d51ce.jpg": "/2021_jane_portfolio/static/media/2020 Protein Plus - hero.4e0d51ce.jpg",
     "static/media/thumbnail_protein_plus.60d0f0fb.jpg": "/2021_jane_portfolio/static/media/thumbnail_protein_plus.60d0f0fb.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c6beee7c.js",
-    "static/js/2.ac02b901.chunk.js",
-    "static/css/main.3c611d42.chunk.css",
-    "static/js/main.e8dea6b9.chunk.js"
+    "static/js/2.983c4ae9.chunk.js",
+    "static/css/main.2355132d.chunk.css",
+    "static/js/main.5a084570.chunk.js"
   ]
 }
