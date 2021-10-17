@@ -5,7 +5,6 @@ import '../styles/card.css';
 
 class Card extends React.Component {
     render() {
-  console.log(this.props.image);
         return(
             <div className="card">
                 <img src={this.props.image} className="card_image"/>

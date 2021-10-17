@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Card from './Card'
-import '../styles/body.css';
+import '../styles/general.css';
 import thumb_protein_plus from '../images/protein_plus/thumbnail_protein_plus.jpg';
 import { NavLink } from 'react-router-dom';
 

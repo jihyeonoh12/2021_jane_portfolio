@@ -5,14 +5,14 @@ class Footer extends React.Component {
     render() {
         return (
             <div className="footer">
-                <div className="footer_menu">
+                <div className="flex-mobile align-item">
                     <a href="#">Digital Design</a>
                     <span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
                     <a href="#">Print Design</a>
                     <span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
                     <a href="#">Coding</a>
                 </div>
-                <div className="footer_menu_2">
+                <div className="flex-mobile align-item">
                      <a href="#">Resume</a>
                      <span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
                      <h4>© 2019 by Jane Noh</h4>
