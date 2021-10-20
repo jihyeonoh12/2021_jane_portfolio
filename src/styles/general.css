@@ -278,6 +278,15 @@ img, image {
     .flex-half {
         width: 100%;
     }
+
+    .img-half {
+        max-height: 350px;
+    }
+    .img-icon {
+    min-width: 100px;
+    height: 100px;
+    }
+
 }
 
 /*----color---*/
