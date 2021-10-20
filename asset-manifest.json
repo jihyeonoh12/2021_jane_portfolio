@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.15b9b694.chunk.css",
-    "main.js": "/static/js/main.01e1711e.chunk.js",
-    "main.js.map": "/static/js/main.01e1711e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.02de8d4d.js",
-    "runtime-main.js.map": "/static/js/runtime-main.02de8d4d.js.map",
+    "main.js": "/static/js/main.7cfd87d2.chunk.js",
+    "main.js.map": "/static/js/main.7cfd87d2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5249e1d2.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5249e1d2.js.map",
     "static/css/2.80937712.chunk.css": "/static/css/2.80937712.chunk.css",
-    "static/js/2.9d7e86a6.chunk.js": "/static/js/2.9d7e86a6.chunk.js",
-    "static/js/2.9d7e86a6.chunk.js.map": "/static/js/2.9d7e86a6.chunk.js.map",
-    "static/js/3.bd4f0bdd.chunk.js": "/static/js/3.bd4f0bdd.chunk.js",
-    "static/js/3.bd4f0bdd.chunk.js.map": "/static/js/3.bd4f0bdd.chunk.js.map",
+    "static/js/2.30d04cd4.chunk.js": "/static/js/2.30d04cd4.chunk.js",
+    "static/js/2.30d04cd4.chunk.js.map": "/static/js/2.30d04cd4.chunk.js.map",
+    "static/js/3.924c757b.chunk.js": "/static/js/3.924c757b.chunk.js",
+    "static/js/3.924c757b.chunk.js.map": "/static/js/3.924c757b.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.80937712.chunk.css.map": "/static/css/2.80937712.chunk.css.map",
     "static/css/main.15b9b694.chunk.css.map": "/static/css/main.15b9b694.chunk.css.map",
-    "static/js/2.9d7e86a6.chunk.js.LICENSE.txt": "/static/js/2.9d7e86a6.chunk.js.LICENSE.txt",
+    "static/js/2.30d04cd4.chunk.js.LICENSE.txt": "/static/js/2.30d04cd4.chunk.js.LICENSE.txt",
     "static/media/2020 Protein Plus - content1.233de0c6.png": "/static/media/2020 Protein Plus - content1.233de0c6.png",
     "static/media/2020 Protein Plus - hero.4e0d51ce.jpg": "/static/media/2020 Protein Plus - hero.4e0d51ce.jpg",
     "static/media/Competitor.7ce55029.png": "/static/media/Competitor.7ce55029.png",
@@ -23,10 +23,10 @@
     "static/media/thumbnail_protein_plus.60d0f0fb.jpg": "/static/media/thumbnail_protein_plus.60d0f0fb.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.02de8d4d.js",
+    "static/js/runtime-main.5249e1d2.js",
     "static/css/2.80937712.chunk.css",
-    "static/js/2.9d7e86a6.chunk.js",
+    "static/js/2.30d04cd4.chunk.js",
     "static/css/main.15b9b694.chunk.css",
-    "static/js/main.01e1711e.chunk.js"
+    "static/js/main.7cfd87d2.chunk.js"
   ]
 }
