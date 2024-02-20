@@ -30,10 +30,10 @@ class PostProteinPlus extends React.Component {
             <div className="post_body">
             <div className="post_container">
                 <PostHero image={Hero_protein_plus} title="Protein+ Meal Plan Page" description="Research and redesign of service page that tailored for its target audience"
-                    company="Fresh N Lean" date="05/20/2019" role1="• UX Research" role2="• Design" role3="• Launch AB Test" role4=""
+                from="Company" company="Fresh N Lean" date="May 2019" role1="• UX Research" role2="• Design" role3="• Launch AB Test" role4=""
                 />
                 <PostContent class="" image={content1} title="What is Performance meal?" body="Fresh n’ Lean provides performance meal plan that specifically targets fitness enthusiast and professional athlets who want nutrient dense and high-protein meal that fits their diet." h3="" p=""/>
-                <ThreeColumn title="UX Research" image1={icon1} image2={icon2} image3={icon3}/>
+                <ThreeColumn title="UX Research" image1={icon1} image2={icon2} title2={"Keyword Research"} body2={"Find search terms to figure out which marketing funnel stage the users are from and serve them with right contents"} image3={icon3}/>
 
                 <PostContentList class="row-reverse" image={targetA} title="Target Audience" 
                 text={'• Age group : 25 – 40yrs \n • Professionals who don’t have time to cook \n • Fitness enthusiast who are health conscious \n • people who are tired of eating prepped meals \n • Who wants good source of energy'} />
@@ -49,9 +49,8 @@ class PostProteinPlus extends React.Component {
                 Show value prop in a layout design that user can understand easily."
                  h3="" p=""/>
                 <PostGallery image1={content1} image2={content1} image3={Hero_protein_plus} title="Final Design System" body="Fresh n Lean is a meal delivery service that provides chef prepared, organic" button="This is Button"/>
-                <PostOutcome image={content1} title="Final Design System" body="Fresh n Lean is a meal delivery service that provides chef prepared, organic" button="This is Button"/>
+                <PostOutcome image={content1} title="Final Design System" body="Fresh n Lean is a meal delivery service that provides chef prepared, organic" button="This is Button" class="dnone"/>
                 <PostFooter />
-                <Footer />
                 </div>
             </div>
         )

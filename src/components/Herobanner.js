@@ -7,9 +7,11 @@ function Herobanner () {
         <div className="hero">
             <div className="hero_container">
                 <h1>
-                Hi I’m Janeee. Welcome to my portfolio.
+                Hello I’m Jane. Welcome to my portfolio.
                 </h1>
-                <p className="top-40">I’m UI/UX designer who loves animals.🐕‍ I like helping users out by finding creative solutions and blowing their mind with pixel perfect design.✨</p>
+                <p className="top-40">
+                I’m a UI/UX designer and front-end developer who loves animals.🐕‍ I like helping users out by finding creative solutions, creating pixel-perfect design, and devloping them into a functional page.✨
+                </p>
             </div>
         </div>
     )

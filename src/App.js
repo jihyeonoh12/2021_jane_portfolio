@@ -6,8 +6,20 @@ import Navbar from './components/Navbar'
 
 import Home from './pages/Home';
 import About from './pages/About';
-import Contact from './pages/Contact';
+import MenuUiux from './pages/MenuUiux';
+import Footer from './components/Footer';
+
 import PostProteinPlus from './pages/PostProteinPlus';
+import PostCompany from './pages/PostCompany';
+import PostCdl from './pages/PostCdl';
+import PostMealPlanMenu from './pages/PostMealPlanMenu';
+import PostRebrand from './pages/PostRebrand';
+import PostWeatherApp from './pages/PostWeatherApp';
+
+import ScrollToTop from './ScrollToTop';
+
+
+
 
 import Protect from 'react-app-protect'
 import 'react-app-protect/dist/index.css'
@@ -17,19 +29,34 @@ import 'react-app-protect/dist/index.css'
 function App() {
   return (
 
-    <Protect sha512='fb31e21722dd473649f6744d8040bd51199b418c4196e10b5fb9df9abd09a416603807ae032086c76a238bc08c1fb2e3d5b89ceae5e05d5dbf1a655167c66f0f'>
+    // <Protect sha512='5522a95bd7abfa96fcbfe70557c1043b0f76c8311238bf888299c6f53a29b3a6c782a873663e70964bbb59dcf24f9158bf096df3c356115a629ff7db69c0047f'>
 
     <div className="App">
       <Navbar />
+      <ScrollToTop />
       <Switch>
         <Route exact path="/"><Home /></Route>
-        <Route exact path="/contact"><Contact /></Route>
         <Route exact path="/about"><About /></Route>
+        <Route exact path="/uiux-work"><MenuUiux /></Route>
+
         <Route exact path="/post-protein-plus"><PostProteinPlus /></Route>
+        <Route exact path="/post-company"><PostCompany /></Route>
+        <Route exact path="/post-cdl"><PostCdl /></Route>
+        <Route exact path="/post-mealplan-menu"><PostMealPlanMenu /></Route>
+        <Route exact path="/post-rebrand"><PostRebrand /></Route>
+        <Route exact path="/post-weather-app"><PostWeatherApp /></Route>
+
+
+
+
+
+
       </Switch>
+      <Footer />
+
     </div>
 
-    </Protect>
+    // </Protect>
   );
 }
 

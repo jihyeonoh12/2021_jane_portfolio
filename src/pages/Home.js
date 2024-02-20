@@ -11,7 +11,6 @@ function Home () {
       <Navbar />
       <Herobanner />
       <Body />
-      <Footer />
     </div>
     )
 }

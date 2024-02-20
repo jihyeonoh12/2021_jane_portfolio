@@ -13,19 +13,20 @@ class PostHero extends React.Component {
                     </div>
                     <div className="flex-half space-between flex-mobile">
                         <div className="flex-30">
-                        <h3>Company</h3>
+                        <h3>{this.props.from}</h3>
                         <p>{this.props.company}</p>
                         </div>
-                        <div className="flex-30">
+                        <div className="flex-20">
                         <h3>Date</h3>
                         <p>{this.props.date}</p>
                         </div>
-                        <div className="flex-30">
-                        <h3>Role</h3>
+                        <div className="flex-half">
+                        <h3>Involvement</h3>
                         <p>{this.props.role1}</p>
                         <p className="empty">{this.props.role2}</p>
                         <p className="empty">{this.props.role3}</p>
                         <p className="empty">{this.props.role4}</p>
+                        <p className="empty">{this.props.role5}</p>
                         </div>
                     </div>
                 </div>

@@ -13,7 +13,7 @@ class PostContent extends React.Component {
             </div>
             <div className="margin-a padding-tb text-left flex-half">
                 <h2>{this.props.title}</h2>
-                <p>{this.props.body}</p>
+                <p className="top-25">{this.props.body}</p>
                 <h3 className="empty">{this.props.h3}</h3>
                 <p className="empty">{this.props.p}</p>
             </div>

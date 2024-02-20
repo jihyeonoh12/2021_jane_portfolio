@@ -67,6 +67,11 @@ p {
     padding: 20px 40px;
     min-width: 300px;
 }
+.button330 {
+    max-width: 330px !important;
+    width: 100%;
+    text-align: center;
+}
 
 .button-outlined {
     font-size: 22px;
@@ -117,7 +122,7 @@ margin-bottom: 40px;
 }
 
 .padding-tb-120 {
-    padding: 120px
+    padding: 120px 0;
 }
 @media screen and (max-width: 800px) {
     .padding-tb {
@@ -242,9 +247,17 @@ img, image {
     box-sizing: border-box; 
     width: 70%;
 }
+/* .flex-50 {
+    box-sizing: border-box; 
+    width: 50%;
+} */
 .flex-30 {
     box-sizing: border-box; 
     width: 30%;
+}
+.flex-20 {
+    box-sizing: border-box; 
+    width: 20%;
 }
 .flex-mobile-only {
     display: block;
@@ -298,6 +311,10 @@ img, image {
 
 /*--- Etc ---*/
 .empty:empty {
+    display: none;
+}
+
+.dnone {
     display: none;
 }
 

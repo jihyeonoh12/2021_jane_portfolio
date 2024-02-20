@@ -15,7 +15,7 @@ class PostGallery extends React.Component {
                         <h2>{this.props.title}</h2>
                         <p>{this.props.body}</p>
                     </div>
-                    <div className="button">
+                    <div className={this.props.class }>
                         <h4>{this.props.button}</h4>
                     </div>
                 </div>
@@ -28,7 +28,7 @@ class PostGallery extends React.Component {
                     </div>
                     <div className="flex-half">
                          <Zoom> 
-                             <img src={this.props.image1} alt="Image"   className="img-half" />
+                             <img src={this.props.image2} alt="Image"   className="img-half" />
                         </Zoom>
                     </div>
                     </div>

@@ -21,7 +21,7 @@ class Navbar extends React.Component {
                     <div class="dropdown">
                         <button className="dropbtn">Work<i className="fa fa-caret-down"></i></button>
                         <div className="dropdown-content">
-                        <NavLink to="/digital-design">Digital Design</NavLink>
+                        <NavLink to="/uiux-work">UIUX Projects</NavLink>
                         <NavLink to="/print-design">Print Design</NavLink>
                         <NavLink to="/coding">Coding</NavLink>
      

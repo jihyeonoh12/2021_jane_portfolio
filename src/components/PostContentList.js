@@ -17,7 +17,7 @@ function PostContentList(props) {
             </div>
             <div className="margin-a padding-tb text-left flex-half">
             <h2>{title}</h2>
-                <div>
+                <div className="top-25">
                 {newText}
                 </div>
                 

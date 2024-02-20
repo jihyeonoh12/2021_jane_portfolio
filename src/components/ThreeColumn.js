@@ -20,8 +20,8 @@ class ThreeColumn extends React.Component {
                 <div className="flex-30 flex-mobile-only">
                     <img src={this.props.image2} className="img-icon right-10 bottom-40"/>
                         <div className="t-center-left">
-                            <h3>Keyword Research</h3>
-                             <p>Find search terms to figure out which marketing funnel stage the users are from and serve them with right contents</p>
+                            <h3>{this.props.title2}</h3>
+                             <p>{this.props.body2}</p>
                         </div>
                 </div>
                 <div className="flex-30 flex-mobile-only">

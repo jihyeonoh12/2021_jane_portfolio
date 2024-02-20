@@ -1,5 +1,7 @@
 import React from 'react'
 import '../styles/footer.css';
+import resume from '../images/2020-JANENOH-RESUME2.pdf';
+
 
 class Footer extends React.Component {
     render() {
@@ -13,9 +15,9 @@ class Footer extends React.Component {
                     <a href="#">Coding</a>
                 </div>
                 <div className="flex-mobile align-item">
-                     <a href="#">Resume</a>
+                     <a href={resume} target="_blank" rel="noreferrer noopener">Resume</a>
                      <span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
-                     <h4>© 2019 by Jane Noh</h4>
+                     <h4>Built with React JS © 2021 by Jane Noh</h4>
                 </div>
             </div>
 
