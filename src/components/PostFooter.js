@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/general.css';
 
 class PostFooter extends React.Component {
     render() {

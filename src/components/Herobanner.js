@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/general.css';
 import '../styles/herobanner.css';
 
 function Herobanner () {

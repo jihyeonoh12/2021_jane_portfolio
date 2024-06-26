@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/general.css';
 
 class PostHero extends React.Component {
     render() {

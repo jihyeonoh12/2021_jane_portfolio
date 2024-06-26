@@ -16,32 +16,35 @@ h1, h2, h3, h4, h5, p, a, button {
     color: inherit;
 }
 
-h1 {
+h1, .h1 {
     font-size: 45px;
     line-height: 50px;
     font-weight: 700;
     margin: 0 0 10px;
 }
 
-h2 {
+h2, .h2 {
     font-size: 32px;
     line-height: 35px;
     font-weight: 800;
     margin: 0 0 10px;
 }
 
-h3 {
+h3, .h3 {
     font-size: 24px;
     line-height: 30px;
     font-weight: 700;
     margin: 0 0 10px;
 }
 
-h4 {
+h4, .h4 {
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: 800;
     margin: 10px;
 }
 
-p {
+p, .p {
     font-size: 20px;
     line-height: 30px;
     font-weight: 300;
@@ -49,34 +52,31 @@ p {
 }
 
 @media screen and (max-width: 769px) {
-    h1 {
-        font-size: 35px;
-        line-height: 45px;
+    h1, .h1 {
+        font-size: 30px;
+        line-height: 40px;
     }
     
-    h2 {
-        font-size: 32px;
-        line-height: 35px;
-        font-weight: 800;
-        margin: 0 0 10px;
+    h2, .h2 {
+        font-size: 25px;
+        line-height: 32px;
     }
     
-    h3 {
-        font-size: 24px;
-        line-height: 30px;
-        font-weight: 700;
-        margin: 0 0 10px;
+    h3, .h3 {
+        font-size: 20px;
+        line-height: 27px;
     }
     
-    h4 {
+    h4, .h4 {
+        font-size: 19px;
+        line-height: 25px;
         margin: 10px;
     }
     
-    p {
-        font-size: 20px;
-        line-height: 30px;
-        font-weight: 300;
-        margin: 0 0 10px;
+    p, .p {
+        font-size: 16px;
+        line-height: 25px;
+
     }
   }
 /*---text styles ---*/
@@ -115,4 +115,60 @@ button {
     border: solid 4px #7C90FF;
     padding: 20px 40px;
     min-width: 300px;
+}
+
+
+/*--- layout style---*/
+.container {
+    box-sizing: border-box; 
+    padding: 0px 10px;
+}
+
+.body {
+    box-sizing: border-box; 
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.body_container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin: auto;
+}
+
+@media screen and (max-width: 800px) {
+    .body_container {
+        grid-template-columns: 49% 49%;
+    }
+}
+
+img {
+    object-fit: cover;
+    border-radius: 10px;
+    box-sizing: border-box; 
+}
+
+/*--- Etc ---*/
+.empty:empty {
+    display: none;
+}
+
+/*-- Zoom --- */
+[data-rmiz-wrap='visible'],
+[data-rmiz-wrap='hidden'] {
+ display: block !important;
+ 
+}
+
+input {
+    border: 1px solid gray;
+    font-size: 18px;
+    padding: 10px;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 8px;
+    margin: 10px 0;
 }

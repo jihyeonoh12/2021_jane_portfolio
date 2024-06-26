@@ -7,7 +7,7 @@ import Footer from '../components/Footer'
 
 function Home () {
     return (
-    <div className="App">
+    <div className="App mt-[150px]">
       <Navbar />
       <Herobanner />
       <Body />

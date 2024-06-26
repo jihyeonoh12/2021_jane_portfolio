@@ -1,7 +1,5 @@
 
 import React from 'react';
-import '../styles/general.css';
-
 
 class PostContentRight extends React.Component {
     render() {

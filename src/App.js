@@ -21,7 +21,7 @@ import { useAuthenticate } from './hooks/useAuthenticate';
 
 function App() {
 
-  const { authenticated, handlePasswordSubmit } = useAuthenticate();
+  const { authenticated, handlePasswordSubmit, errorMsg } = useAuthenticate();
 
   const renderContent = () => {
     if (authenticated) {
@@ -43,7 +43,7 @@ function App() {
     </div>
       );
     } else {
-      return <PasswordComponent onPasswordSubmit={handlePasswordSubmit} />;
+      return <PasswordComponent onPasswordSubmit={handlePasswordSubmit} errorMsg={errorMsg}/>;
     }
   };
 
