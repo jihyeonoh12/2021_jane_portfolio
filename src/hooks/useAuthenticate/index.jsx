@@ -3,13 +3,15 @@ import { useState, useEffect } from 'react';
 const useAuthenticate = () => {
 
   const [authenticated, setAuthenticated] = useState(false);
+  const [errorMsg, setErrorMsg] = useState('');
+
 
   const handlePasswordSubmit = (enteredPassword) => {
     if (enteredPassword === 'test') {
       localStorage.setItem('authenticated', 'true');
       setAuthenticated(true);
     } else {
-      alert('Incorrect password. Please contact janenoh12@gmail.com for request :)');
+      setErrorMsg('Wrong Password :p');
     }
   };
 
@@ -26,7 +28,8 @@ const useAuthenticate = () => {
 
   return {
     authenticated,
-    handlePasswordSubmit
+    handlePasswordSubmit,
+    errorMsg
   };
 };
 

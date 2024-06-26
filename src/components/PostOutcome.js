@@ -1,6 +1,5 @@
 
 import React from 'react';
-import '../styles/general.css';
 
 class PostOutcome extends React.Component {
     render() {

@@ -1,7 +1,6 @@
 
 import React from 'react';
 import Card from '../components/Card'
-import '../styles/general.css';
 import thumb_protein_plus from '../images/protein_plus/thumbnail_protein_plus.jpg';
 import thumb_company from '../images/company/company.jpg';
 import thumb_cdl from '../images/cdl/cdl.jpg';

@@ -1,8 +1,5 @@
 
 import React from 'react';
-import '../styles/general.css';
-
-
 
 class PostContent extends React.Component {
     render() {

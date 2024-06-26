@@ -1,6 +1,4 @@
 import React from 'react';
-import '../styles/general.css';
-
 
 function PostContentList(props) {
     const title = props.title;

@@ -1,6 +1,5 @@
 
 import React from 'react';
-import '../styles/general.css';
 
 class ThreeColumn extends React.Component {
     render() {
