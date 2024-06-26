@@ -15,7 +15,7 @@ import { NavLink } from 'react-router-dom';
 class MenuUiux extends React.Component {
     render() {
         return (
-            <div className="body padding-tb-120">
+            <div className="body px-0 py-[120px]">
             <h1>UIUX Projects</h1>
             <div className="body_container">
                 <NavLink to="/post-company"><Card image={thumb_company} title="Company Page" description="Design company page and help build it on the website"/></NavLink>

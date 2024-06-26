@@ -1,7 +1,7 @@
 import './App.css';
-import './styles/password.css';
 
-import {Switch, Route} from 'react-router-dom';
+import { Route } from 'react-router-dom';
+import PasswordComponent from './components/PasswordComponent';
 import Navbar from './components/Navbar'
 
 import Home from './pages/Home';
@@ -17,24 +17,18 @@ import PostRebrand from './pages/PostRebrand';
 import PostWeatherApp from './pages/PostWeatherApp';
 
 import ScrollToTop from './ScrollToTop';
-
-
-
-
-import Protect from 'react-app-protect'
-import 'react-app-protect/dist/index.css'
-
-
+import { useAuthenticate } from './hooks/useAuthenticate';
 
 function App() {
-  return (
 
-    // <Protect sha512='5522a95bd7abfa96fcbfe70557c1043b0f76c8311238bf888299c6f53a29b3a6c782a873663e70964bbb59dcf24f9158bf096df3c356115a629ff7db69c0047f'>
+  const { authenticated, handlePasswordSubmit } = useAuthenticate();
 
-    <div className="App">
+  const renderContent = () => {
+    if (authenticated) {
+      return (
+      <div className="App">
       <Navbar />
       <ScrollToTop />
-      <Switch>
         <Route exact path="/"><Home /></Route>
         <Route exact path="/about"><About /></Route>
         <Route exact path="/uiux-work"><MenuUiux /></Route>
@@ -45,19 +39,15 @@ function App() {
         <Route exact path="/post-mealplan-menu"><PostMealPlanMenu /></Route>
         <Route exact path="/post-rebrand"><PostRebrand /></Route>
         <Route exact path="/post-weather-app"><PostWeatherApp /></Route>
-
-
-
-
-
-
-      </Switch>
       <Footer />
-
     </div>
+      );
+    } else {
+      return <PasswordComponent onPasswordSubmit={handlePasswordSubmit} />;
+    }
+  };
 
-    // </Protect>
-  );
+  return <div>{renderContent()}</div>;
 }
 
 export default App;
