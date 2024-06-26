@@ -9,8 +9,8 @@ class PostGallery extends React.Component {
    
     render() {
         return (
-           <div className="max-width container">
-                <div className="flex space-between bottom-40">
+           <div className="max-w-[1200px] w-full mx-auto my-[12px] container">
+                <div className="flex gap-2.5 space-between mb-10">
                     <div className="text-left">
                         <h2>{this.props.title}</h2>
                         <p>{this.props.body}</p>
@@ -20,22 +20,22 @@ class PostGallery extends React.Component {
                     </div>
                 </div>
                 <div>
-                    <div className="flex">
-                    <div className="flex-half">
+                    <div className="flex gap-2.5">
+                    <div className="flex gap-2.5-half">
                          <Zoom> 
-                             <img src={this.props.image1} alt="Image"   className="img-half"/>
+                             <img src={this.props.image1} alt="Image"   className="max-w-[800px] w-full max-h-[350px] md:max-h-[550px] h-[550px] object-cover"/>
                         </Zoom>
                     </div>
-                    <div className="flex-half">
+                    <div className="flex gap-2.5-half">
                          <Zoom> 
-                             <img src={this.props.image2} alt="Image"   className="img-half" />
+                             <img src={this.props.image2} alt="Image"   className="max-w-[800px] w-full max-h-[350px] md:max-h-[550px] h-[550px] object-cover" />
                         </Zoom>
                     </div>
                     </div>
                     
-                    <div className="top-10">
+                    <div className="mt-2.5">
                     <Zoom>
-                    <img src={this.props.image3} className="img-mw"/>
+                    <img src={this.props.image3} className="w-full h-auto mb-[40px]"/>
                     </Zoom>
                     </div>
                 </div>

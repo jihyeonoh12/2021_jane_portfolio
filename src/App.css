@@ -1,40 +1,118 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1, h2, h3, h4, h5, p, a, button {
+    /* font-family: 'Noto Sans JP', sans-serif; */
+    /* font-family: 'Shippori Mincho B1', serif; */
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    text-transform: none;
+    color: inherit;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+h1 {
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 700;
+    margin: 0 0 10px;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 35px;
+    font-weight: 800;
+    margin: 0 0 10px;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    margin: 0 0 10px;
+}
+
+h4 {
+    margin: 10px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    margin: 0 0 10px;
+}
+
+@media screen and (max-width: 769px) {
+    h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    
+    h2 {
+        font-size: 32px;
+        line-height: 35px;
+        font-weight: 800;
+        margin: 0 0 10px;
+    }
+    
+    h3 {
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 700;
+        margin: 0 0 10px;
+    }
+    
+    h4 {
+        margin: 10px;
+    }
+    
+    p {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 300;
+        margin: 0 0 10px;
+    }
   }
+/*---text styles ---*/
+
+button {
+    font-size: 18px;
+    padding: 13px;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #244cff;
+    color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.button {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 700;
+    color: white;
+    background-color: #7C90FF;
+    padding: 20px 40px;
+    min-width: 300px;
+}
+.button330 {
+    max-width: 330px !important;
+    width: 100%;
+    text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.button-outlined {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #7C90FF;
+    background-color: white;
+    border: solid 4px #7C90FF;
+    padding: 20px 40px;
+    min-width: 300px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-

@@ -27,7 +27,7 @@ class PostWeatherApp extends React.Component {
                 As a traveler, I want to see the weather outlook for multiple cities so that I can plan a trip accordingly
                 " h3="" p=""/>
 
-                <PostContentList class="row-reverse" image={content2} title="This project includes :" 
+                <PostContentList class="flex-row-reverse" image={content2} title="This project includes :" 
                 text={'• Using the OpenWeather API to retrieve weather data  \n • Using AJAX to hook into the API to retrieve data in JSON format \n • Using jQuery to display retrieve data into HTML and CSS \n • Using localStorage to store search history'} />
             
                 <PostOutcome image={content3} title="Results And Learnings" 

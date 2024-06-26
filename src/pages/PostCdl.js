@@ -33,7 +33,7 @@ class PostCdl extends React.Component {
                 <PostContent class="" image={content1} title="What is CDL Meals?" body="CDL Meals is a sub-brand of Fresh n' Lean. established in 2018
                 CDL Meals is designed to provide a healthier on the go food option for the busy commercially licensed driver community" h3="" p=""/>
 
-                <PostContentList class="row-reverse" image={content2} title="Target Audience" 
+                <PostContentList class="flex-row-reverse" image={content2} title="Target Audience" 
                 text={'• Age group : 25 – 62yrs \n • Commercially licensed driver \n • Drivers suffer from healthy problem due to unhealthy diet \n • Drivers who do not have time to cook but want to eat healthy food'} />
             
                 {/* <PostContentList class="" image={content3} title="Value props" 
@@ -48,13 +48,13 @@ class PostCdl extends React.Component {
                 "
                  h3="" p=""/>
     
-                <PostContent class="row-reverse" image={content4} title="Design / developement solution :" 
+                <PostContent class="flex-row-reverse" image={content4} title="Design / developement solution :" 
                 body="
                Redesign the logo that fits the style of new Fresh N' Lean branding. Rebuild the website using Php template and ACF so the website manager can easiler update the contents if needed.
                 "
                  h3="" p=""/>
-                <PostGallery image1={content5} image2={content6} image3={content7} title="Final Design And Development" body="The final design and screenshots of the website." button="This is Button" class="dnone"/>
-                <PostOutcome class="dnone" image={content8} title="Results And Learnings" 
+                <PostGallery image1={content5} image2={content6} image3={content7} title="Final Design And Development" body="The final design and screenshots of the website." button="This is Button" class="hidden"/>
+                <PostOutcome class="hidden" image={content8} title="Results And Learnings" 
                 body="We weren't able to measure the success since we didn't launch it on analytic program but it was certainly good learning experience for me. Through this project I was able to learn the basics of Php template and ACF fields which helped other team member to manage the content without updating contents on code side" button="This is Button"/>
                 <PostFooter />
                 </div>

@@ -35,20 +35,20 @@ class PostCompany extends React.Component {
                 Later down the project, the marketing team has decided to combine the company page with press page so user can easily access the latest news and media assets all in one place.
                 " h3="" p=""/>
 
-                <PostContentList class="row-reverse" image={content2} title="Target Audience / Main Users" 
+                <PostContentList class="flex-row-reverse" image={content2} title="Target Audience / Main Users" 
                 text={'• Job Applicant, future employee \n • Press Release Writers'} />
                 
                 <PostContentList class="" image={content3} title="Key Contents" 
                 text={'• Company mission statement \n • Company cultures (social events) \n • Careers page with job posting \n • Press related contents (Media Assets)'} />
                 
-                <PostContent class="row-reverse" image={content4} title="Design solution :" 
+                <PostContent class="flex-row-reverse" image={content4} title="Design solution :" 
                 body="
                 Since we want to showcase more than one topic on this page, we decided to break the contents into 4 pages and a menu bar that connects those 4 pages.
 
                 "
                  h3="" p=""/>
-                <PostGallery image1={content5} image2={content6} image3={content7} title="Final Design System" body="Fresh n Lean is a meal delivery service that provides chef prepared, organic" button="" class="dnone"/>
-                <PostOutcome image={content8} class="dnone" title="Result / Learnings" body="
+                <PostGallery image1={content5} image2={content6} image3={content7} title="Final Design System" body="Fresh n Lean is a meal delivery service that provides chef prepared, organic" button="" class="hidden"/>
+                <PostOutcome image={content8} class="hidden" title="Result / Learnings" body="
 This project was great front-end development expereince for me because some of the page required using libraries such as 'Slick-Slider' to create history timeline component and popup modules. 
                 " button=""/>
                 <PostFooter />
