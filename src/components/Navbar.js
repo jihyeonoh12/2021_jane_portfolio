@@ -15,7 +15,7 @@ class Navbar extends React.Component {
     return (
         <div className="navbar">
             <div className="topnav" id="myTopnav">
-                <NavLink to="/" className="navbar_logo">Jane N Design</NavLink>
+                <NavLink to="/" className="navbar_logo">Jane N.</NavLink>
                 <div className="navbar_menu">
                 <NavLink to="/about">About</NavLink>
                     <div class="dropdown">

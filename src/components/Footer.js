@@ -6,18 +6,16 @@ import resume from '../images/2020-JANENOH-RESUME2.pdf';
 class Footer extends React.Component {
     render() {
         return (
-            <div className="footer">
-                <div className="flex gap-2.5 items-center">
+            <div className="max-w-[1200px] md:flex w-full h-[80px] justify-between px-2.5 py-[20px] m-auto">
+                <div className="flex gap-2.5 items-center justify-center">
                     <a href="#">Digital Design</a>
                     <span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
                     <a href="#">Print Design</a>
                     <span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
                     <a href="#">Coding</a>
                 </div>
-                <div className="flex gap-2.5 items-center">
-                     <a href={resume} target="_blank" rel="noreferrer noopener">Resume</a>
-                     <span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
-                     <h4>Built with React JS © 2021 by Jane Noh</h4>
+                <div className="text-center md:text-right">
+                     <p className='font-bold'>Built with React JS © 2021 by Jane Noh</p>
                 </div>
             </div>
 

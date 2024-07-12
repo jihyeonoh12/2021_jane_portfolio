@@ -13,6 +13,7 @@ module.exports = {
       },
       boxShadow: {
         card: '0px 0px 15px #8383961f',
+        navbar: '0px 0px 15px #8383961f'
       },
     },
   },

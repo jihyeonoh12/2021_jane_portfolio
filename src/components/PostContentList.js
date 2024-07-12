@@ -1,15 +1,17 @@
 import React from 'react';
 
-function PostContentList(props) {
-    const title = props.title;
-    const text = props.text;
-    const image = props.image;
-    const reverse = props.class
+
+const PostContentList = ({ title, text, image, classes }) => {
+// function PostContentList(props) {
+//     const title = props.title;
+//     const text = props.text;
+//     const image = props.image;
+//     const reverse = props.class
     const newText = text.split('\n').map(str => <p>{str}</p>);
     
     return(
 
-        <div className={"max-w-[1200px] w-full mx-auto my-[12px] block md:flex gap-2.5 container " + reverse}>
+        <div className={"max-w-[1200px] w-full mx-auto my-[60px] block md:flex gap-2.5 container " + classes}>
             <div className="w-full md:w-1/2">
                 <img src={image} className="max-w-[800px] w-full max-h-[350px] md:max-h-[550px] h-[550px] object-cover"/>
             </div>

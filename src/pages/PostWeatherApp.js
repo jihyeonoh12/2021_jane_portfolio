@@ -22,18 +22,18 @@ class PostWeatherApp extends React.Component {
                 <PostHero image={hero_banner} title="Weather Dashboard" 
                     from="From" company="UCI Bootcamp" date="Nov. 2019" role1="• Retrieve data using API Calls" role2="• Use local Storage to store search history" role3="• Use jQuery to render the page" role4="• Page styling using Bootstrap" role5=""
                 />
-                <PostContent class="" image={content1} title="User Story" 
+                <PostContent classes="" image={content1} title="User Story" 
                 body="
                 As a traveler, I want to see the weather outlook for multiple cities so that I can plan a trip accordingly
                 " h3="" p=""/>
 
-                <PostContentList class="flex-row-reverse" image={content2} title="This project includes :" 
+                <PostContentList classes="flex-row-reverse" image={content2} title="This project includes :" 
                 text={'• Using the OpenWeather API to retrieve weather data  \n • Using AJAX to hook into the API to retrieve data in JSON format \n • Using jQuery to display retrieve data into HTML and CSS \n • Using localStorage to store search history'} />
             
                 <PostOutcome image={content3} title="Results And Learnings" 
                 body="
 Through this project, I learned how to handle API Calls. I was able to use AJAX to hook into the API and render those data on the website.
-                " button="View Website" url="https://jihyeonoh12.github.io/week6_hw/" class=""/>
+                " button="View Website" url="https://jihyeonoh12.github.io/week6_hw/" classes=""/>
                 <PostFooter />
                 </div>
             </div>

@@ -26,7 +26,7 @@ function App() {
   const renderContent = () => {
     if (authenticated) {
       return (
-      <div className="App">
+      <div className="App mt-[100px]">
       <Navbar />
       <ScrollToTop />
         <Route exact path="/"><Home /></Route>
