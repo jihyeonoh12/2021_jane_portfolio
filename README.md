@@ -6,6 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm install 14.22.2`
+nvm use 14.21.2
+
 ### `npm start`
 
 Runs the app in the development mode.\
