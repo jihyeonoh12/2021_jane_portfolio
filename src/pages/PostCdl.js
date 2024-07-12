@@ -30,17 +30,17 @@ class PostCdl extends React.Component {
                 <PostHero image={hero_banner} title="Rebranding and Rebuiding CDL website" description="Design and building company page"
                    from="Company"  company="CDL Meals" date="Jun. 2019" role1="• Redesign Logo" role2="• Update Package Design" role3="• Create Prototype" role4="• Build Php template" role5="• Page styling using SCSS"
                 />
-                <PostContent class="" image={content1} title="What is CDL Meals?" body="CDL Meals is a sub-brand of Fresh n' Lean. established in 2018
+                <PostContent classes="" image={content1} title="What is CDL Meals?" body="CDL Meals is a sub-brand of Fresh n' Lean. established in 2018
                 CDL Meals is designed to provide a healthier on the go food option for the busy commercially licensed driver community" h3="" p=""/>
 
-                <PostContentList class="flex-row-reverse" image={content2} title="Target Audience" 
+                <PostContentList classes="flex-row-reverse" image={content2} title="Target Audience" 
                 text={'• Age group : 25 – 62yrs \n • Commercially licensed driver \n • Drivers suffer from healthy problem due to unhealthy diet \n • Drivers who do not have time to cook but want to eat healthy food'} />
             
-                {/* <PostContentList class="" image={content3} title="Value props" 
+                {/* <PostContentList classes="" image={content3} title="Value props" 
                 text={'• Ready in 3 minutes. Easy to carry around. Also can purchase a potable food warmer. \n • Shipped free to your home or any specific terminal \n • Nutrient dense meal for high performance'} />
                  */}
 
-                <PostContent class="" image={content9} title="Problem / Issue" 
+                <PostContent classes="" image={content9} title="Problem / Issue" 
                 body="
                 The brand creatives such as logo and websites are created back in 2018 and hadn't been updated since then.
                 After the rebrand of Fresh N' Lean, we wanted udpate the design to make those two brand look cohesive. 
@@ -48,13 +48,13 @@ class PostCdl extends React.Component {
                 "
                  h3="" p=""/>
     
-                <PostContent class="flex-row-reverse" image={content4} title="Design / developement solution :" 
+                <PostContent classes="flex-row-reverse" image={content4} title="Design / developement solution :" 
                 body="
                Redesign the logo that fits the style of new Fresh N' Lean branding. Rebuild the website using Php template and ACF so the website manager can easiler update the contents if needed.
                 "
                  h3="" p=""/>
                 <PostGallery image1={content5} image2={content6} image3={content7} title="Final Design And Development" body="The final design and screenshots of the website." button="This is Button" class="hidden"/>
-                <PostOutcome class="hidden" image={content8} title="Results And Learnings" 
+                <PostOutcome classes="hidden" image={content8} title="Results And Learnings" 
                 body="We weren't able to measure the success since we didn't launch it on analytic program but it was certainly good learning experience for me. Through this project I was able to learn the basics of Php template and ACF fields which helped other team member to manage the content without updating contents on code side" button="This is Button"/>
                 <PostFooter />
                 </div>

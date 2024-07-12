@@ -4,7 +4,7 @@ import React from 'react';
 class PostContentRight extends React.Component {
     render() {
         return (
-           <div className="max-w-[1200px] w-full mx-auto my-[12px] flex gap-2.5 flex-col md:flex-row container">
+           <div className="max-w-[1200px] w-full mx-auto my-[60px] flex gap-2.5 flex-col md:flex-row container">
             
             <div className="m-auto py-[40px] px-[20px] md:px-[60px] text-left w-full md:w-1/2">
                 <h2>{this.props.title}</h2>

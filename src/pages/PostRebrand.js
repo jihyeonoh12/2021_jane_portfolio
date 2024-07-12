@@ -32,23 +32,23 @@ class PostRebrand extends React.Component {
                 <PostHero image={hero_banner} title="Rebranding Corporate Identity" description="Re-designing logo, website, packaging for building strong corporate identity"
                     from="Company" company="Fresh N Lean" date="Feb. 2020" role1="• User Research" role2="• Creating Style Guide" role3="• Updating Website Assets" role4="Packaging design"
                 />
-                <PostContent class="" image={content1} title="Context" 
+                <PostContent classes="" image={content1} title="Context" 
                 body="Fresh N' Lean is a meal delivery service that provides chef prepared, organic, and nutrient dense food. Their meals are made entirely from scratch and delivered straight to your door. Ultimate goal with Fresh n’ Lean is to make Healthy eating easier for everyone." h3="" p=""/>
 
-                <PostContent class="flex-row-reverse" image={content2} title="Problem / Issue" 
+                <PostContent classes="flex-row-reverse" image={content2} title="Problem / Issue" 
                 body="The first problem was that their online sales were heavily relied on SEO ranking and from time to time the the conversion rate went down when google updates their algorithm. Second problem was that their old logo and packaging didn’t look cohesive together. They got their logo and packaging design done from different designers and didn’t have a solid style guideline. Thus their branding seemed not strong to appeal to their potential target group." h3="" p=""/>
 
-                <PostContent class="" image={content3} title="Research" 
+                <PostContent classes="" image={content3} title="Research" 
                 body="After doing research on google analytics and facebook (using facebook ads), we were able to gather data on current user demographics. By using this data as our foundation, we decided to make changes in marketing and design direction." h3="" p=""/>
 
-                <PostContentList class="flex-row-reverse" image={content4} title="Target Audience" 
+                <PostContentList classes="flex-row-reverse" image={content4} title="Target Audience" 
                 text={'• Location : California, New York, Washington \n • Age group : 25 – 40yrs \n • Salary: Upper Middle Class, Upper Class \n • people who are tired of eating prepped meals \n • Professional athlets who don’t have time to cook \n • Interested in weight loss meal plan \n • People who wants sustainable meal plan'} />
 
-                <PostContentList class="" image={content5} title="Value Prop" 
+                <PostContentList classes="" image={content5} title="Value Prop" 
                 text={'• Pre-made ready to eat meal  \n• Free weekly delivery  \n • New seasonal menu every weeks \n • Macro calculation to keep track of caloriesk \n • Easy to customize meal by adding bulk sides \n • Nutrient dense meal that helps high performance'} />
                 
 
-                <PostContent class="flex-row-reverse" image={content6} title="Design solution :" 
+                <PostContent classes="flex-row-reverse" image={content6} title="Design solution :" 
                 body="
                 From our data, we were able to find out that we get higher customer lifetime value out of male customer than female customer and we wanted to test our hypothesis by updating our brand into masculine design.
                 "
