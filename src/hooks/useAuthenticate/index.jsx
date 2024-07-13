@@ -16,9 +16,9 @@ const useAuthenticate = () => {
   };
 
   useEffect(() => {
-    window.addEventListener('beforeunload', function() {
-      localStorage.removeItem('authenticated');
-    });
+    // window.addEventListener('beforeunload', function() {
+    //   localStorage.removeItem('authenticated');
+    // });
     const storedAuthentication = localStorage.getItem('authenticated');
     if (storedAuthentication === 'true') {
       setAuthenticated(true);

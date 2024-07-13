@@ -27,7 +27,7 @@ class PostCompany extends React.Component {
             <div className="post_body">
             <div className="post_container">
                 <PostHero image={hero_company} title="Designing and Building Company Page" description="Design and building company page"
-                    from="Company" company="Fresh N Lean" date="Dec. 2020" role1="• Researching Competitors" role2="• Creating Prototype" role3="• Using Php to help creating the template" role4="• Using SCSS to style the page"
+                    from="Company" company="Fresh N Lean" date="Dec. 2020" role1="• Conducting competitor research" role2="• Creating Prototype" role3="• Creating the template using Php" role4="• Applying SCSS for page styling"
                 />
                 <PostContent classes="" image={content1} title="FNL Company Page" 
                 body="

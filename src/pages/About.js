@@ -8,7 +8,7 @@ function About () {
     <div className="about">
       <PostContent className="" image={content1} title="Hello!👋 my name is Jane" 
                 body="
-                My passion for design started when I drew illustrations as a child. As I grew up, I wanted to learn more design skills, so I studied studio art at CSULB. After graduation, I gained significant graphic design and web design experience working in the beauty and food industry for three years. Through this experience, I found my true love to be the interaction designer. I am currently polishing my motion graphic and UI/UX design skills to deliver beautiful and easy-to-use user interfaces. I like to work on redesigning web and app designs, suggesting creative solutions that not only are visually appealing but also deliver a great user experience.
+                Ever since I was a kid, I loved to draw, which led me to study studio art at CSULB. After graduating, I kicked off my career as a graphic designer and eventually found my way into UI/UX design. Working closely with web developers got me curious about coding, so I took a coding bootcamp at UCI while still working as a UI/UX designer. Learning to code was a game-changer, bridging the gap between design and development for me. I got hooked on building apps and eventually made the leap to become a software developer, blending my design skills with my newfound coding abilities.
                 "
                  h3="" p=""/>
     </div>

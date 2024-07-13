@@ -29,7 +29,7 @@ class PostMealPlanMenu extends React.Component {
         return (
             <div className="post_body">
             <div className="post_container">
-                <PostHero image={hero_banner} title="Reducing drop off rate by improving user flow" description="Design and building company page"
+                <PostHero image={hero_banner} title="Minimizing Drop-off Rates by Enhancing User Flow" description="Design and building company page"
                     from="Company" company="Fresh N Lean" date="Apr. 2020" role1="• Research Competitors" role2="• Analyze user data from GA" role3="• Create Prototype" role4="• Launch AB testing"
                 />
                 <PostContent classes="" image={content1} title="Menu and Meal Plan Page" body="Fresh n’ Lean provides performance meal plan that specifically targets fitness enthusiast and professional athlets who want nutrient dense and high-protein meal that fits their diet." h3="" p=""/>

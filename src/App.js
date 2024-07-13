@@ -26,13 +26,12 @@ function App() {
   const renderContent = () => {
     if (authenticated) {
       return (
-      <div className="App mt-[100px]">
+      <div className="App mt-[120px]">
       <Navbar />
       <ScrollToTop />
         <Route exact path="/"><Home /></Route>
         <Route exact path="/about"><About /></Route>
-        <Route exact path="/uiux-work"><MenuUiux /></Route>
-
+        <Route exact path="/uiux"><MenuUiux /></Route>
         <Route exact path="/post-protein-plus"><PostProteinPlus /></Route>
         <Route exact path="/post-company"><PostCompany /></Route>
         <Route exact path="/post-cdl"><PostCdl /></Route>

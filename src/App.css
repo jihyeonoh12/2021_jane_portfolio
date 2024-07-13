@@ -44,11 +44,19 @@ h4, .h4 {
     margin: 10px;
 }
 
+h5, .h5 {
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 700;
+    margin: 5px;
+}
+
+
 p, .p {
     font-size: 18px;
     line-height: 30px;
     font-weight: 300;
-    margin: 0 0 10px;
+    margin: 0;
 }
 
 @media screen and (max-width: 769px) {
@@ -71,6 +79,13 @@ p, .p {
         font-size: 18px;
         line-height: 23px;
         margin: 10px;
+    }
+
+    h5, .h5 {
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 700;
+        margin: 5px;
     }
     
     p, .p {

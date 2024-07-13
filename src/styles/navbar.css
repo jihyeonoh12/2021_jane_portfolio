@@ -11,7 +11,7 @@
 
 .topnav {
   overflow: hidden;
-  max-width: 1200px;
+  max-width: 1240px;
   width: 100%;
   margin: auto;
   padding: 0 10px;
@@ -76,9 +76,10 @@ a.navbar_logo {
   /* background-color: #f9f9f9; */
   min-width: 160px;
   /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
-  z-index: 1;
+  z-index: 100;
+  top:80px;
   margin-left: -90px;
-  background-color: #efeff9;
+  background-color: #a8befe;
 }
 
 /* Style the links inside the dropdown */
@@ -99,7 +100,7 @@ a.navbar_logo {
 
 /* Add a grey background to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #8ba5f3;
   color: black;
 }
 
