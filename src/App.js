@@ -15,6 +15,9 @@ import PostCdl from './pages/PostCdl';
 import PostMealPlanMenu from './pages/PostMealPlanMenu';
 import PostRebrand from './pages/PostRebrand';
 import PostWeatherApp from './pages/PostWeatherApp';
+import PostFlexibleContent from './pages/PostFlexibleContent';
+import PostSitewideCTA from './pages/PostSitewideCTA';
+
 
 import ScrollToTop from './ScrollToTop';
 import { useAuthenticate } from './hooks/useAuthenticate';
@@ -38,6 +41,10 @@ function App() {
         <Route exact path="/post-mealplan-menu"><PostMealPlanMenu /></Route>
         <Route exact path="/post-rebrand"><PostRebrand /></Route>
         <Route exact path="/post-weather-app"><PostWeatherApp /></Route>
+        <Route exact path="/post-flexible-content"><PostFlexibleContent /></Route>
+        <Route exact path="/post-sitewide-cta"><PostSitewideCTA /></Route>
+
+
       <Footer />
     </div>
       );

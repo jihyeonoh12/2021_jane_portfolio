@@ -12,10 +12,10 @@ function Herobanner () {
                 Former UIUX Designer,
                 </h1>
                 <h1 className='animate-fade'>
-                Now Mastering Software Engineer✨‍ 
+                Now Mastering Software Engineering✨‍ 
                 </h1>
                 <p className='animate-fade'>
-                Blending my love for sleek, user-friendly design with the power of code to build apps that are both beautiful and functional.
+                Combining my passion for sleek, user-friendly design with the power of code to create beautiful and functional apps.
                 </p>
             </div>
         </div>

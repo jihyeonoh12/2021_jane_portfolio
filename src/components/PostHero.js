@@ -10,11 +10,11 @@ const PostHero = (props) => {
         <div className="max-w-[1200px] w-full mx-auto mt-[12px] mb-[40px] container">
             <div className="mt-10">
                 {image ? (
-                <img src={image} className="w-full h-auto mb-[40px] mt-10 "/>
+                <img src={image} className="w-full h-auto mb-[40px] mt-10 " alt="hero"/>
                 ) :  null}
                 <div className="text-left block md:flex gap-2.5 mb-2">
                     <div className=" w-full box-border mr-2.5 md:border-r-2 md:border-blue pb-3">
-                    <h1 className='mr-10'>{title}</h1>
+                    <h1 className='md:smr-10'>{title}</h1>
                     <div className='flex'>
                 <h5>{company}</h5>
                 <span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>

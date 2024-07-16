@@ -30,19 +30,26 @@ class PostRebrand extends React.Component {
             <div className="post_body">
             <div className="post_container">
                 <PostHero image={hero_banner} title="Rebranding Corporate Identity" description="Re-designing logo, website, packaging for building strong corporate identity"
-                    from="Company" company="Fresh N Lean" date="Feb. 2020" role1="• User Research" role2="• Creating Style Guide" role3="• Updating Website Assets" role4="Packaging design"
+                    from="Company" company="Fresh N Lean" date="Feb. 2020" role1="• Conducting User Research" role2="• Creating Style Guide" role3="• Updating Website Assets" role4="• Designing Packaging"
                 />
                 <PostContent classes="" image={content1} title="Context" 
-                body="Fresh N' Lean is a meal delivery service that provides chef prepared, organic, and nutrient dense food. Their meals are made entirely from scratch and delivered straight to your door. Ultimate goal with Fresh n’ Lean is to make Healthy eating easier for everyone." h3="" p=""/>
+                body="
+                Fresh N' Lean is a meal delivery service offering chef-prepared, organic, and nutrient-dense food. Each meal is crafted from scratch and conveniently delivered to your doorstep. The ultimate goal of Fresh n' Lean is to make healthy eating accessible and effortless for everyone.
+                " h3="" p=""/>
 
                 <PostContent classes="flex-row-reverse" image={content2} title="Problem / Issue" 
-                body="The first problem was that their online sales were heavily relied on SEO ranking and from time to time the the conversion rate went down when google updates their algorithm. Second problem was that their old logo and packaging didn’t look cohesive together. They got their logo and packaging design done from different designers and didn’t have a solid style guideline. Thus their branding seemed not strong to appeal to their potential target group." h3="" p=""/>
+                body="
+                Their online sales heavily relied on SEO rankings, leading to fluctuating conversion rates with Google algorithm updates. Additionally, their logo and packaging, designed separately without a unified style guideline, lacked cohesion, weakening their brand appeal to the target audience.
+                " h3="" p=""/>
 
                 <PostContent classes="" image={content3} title="Research" 
-                body="After doing research on google analytics and facebook (using facebook ads), we were able to gather data on current user demographics. By using this data as our foundation, we decided to make changes in marketing and design direction." h3="" p=""/>
+                body="
+                After researching Google Analytics and Facebook (via Facebook Ads), we gathered valuable data on current user demographics. Using this data as our foundation, we made strategic changes in marketing and design direction.
+                " 
+                h3="" p=""/>
 
                 <PostContentList classes="flex-row-reverse" image={content4} title="Target Audience" 
-                text={'• Location : California, New York, Washington \n • Age group : 25 – 40yrs \n • Salary: Upper Middle Class, Upper Class \n • people who are tired of eating prepped meals \n • Professional athlets who don’t have time to cook \n • Interested in weight loss meal plan \n • People who wants sustainable meal plan'} />
+                text={'• Major Location : California, New York, Washington \n • Age group : 25 – 40yrs \n • Salary: Upper Middle Class, Upper Class \n • Individuals tired of prepped meals \n • Professional athletes lacking time to cook \n • Interested in weight-loss meal plans \n • Seeking sustainable meal options'} />
 
                 <PostContentList classes="" image={content5} title="Value Prop" 
                 text={'• Pre-made ready to eat meal  \n• Free weekly delivery  \n • New seasonal menu every weeks \n • Macro calculation to keep track of caloriesk \n • Easy to customize meal by adding bulk sides \n • Nutrient dense meal that helps high performance'} />
@@ -50,10 +57,10 @@ class PostRebrand extends React.Component {
 
                 <PostContent classes="flex-row-reverse" image={content6} title="Design solution :" 
                 body="
-                From our data, we were able to find out that we get higher customer lifetime value out of male customer than female customer and we wanted to test our hypothesis by updating our brand into masculine design.
+                Based on our data, we discovered that male customers have a higher customer lifetime value compared to female customers. To test this hypothesis, we decided to update our brand with a more masculine design.
                 "
                  h3="" p=""/>
-                <PostGallery image1={content7} image2={content8} image3={content9} title="Final Design System" body="Fresh n Lean is a meal delivery service that provides chef prepared, organic" button="This is Button" class="hidden"/>
+                <PostGallery image1={content7} image2={content8} image3={content9} title="Final Design System" body="Logo, Typography, and Color Scheme"  class="hidden"/>
                 <PostFooter />
                 </div>
             </div>

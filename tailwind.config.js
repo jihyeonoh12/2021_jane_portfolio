@@ -11,7 +11,7 @@ module.exports = {
         yellow: '#fff175',
         green: '#00eb79',
         blue: '#2e8cff',
-        background: '#a8befe',
+        background: '#C6D8FB',
         error: '#ff2f05'
       },
       boxShadow: {

@@ -22,17 +22,17 @@ class PostGallery extends React.Component {
                     <div className="flex gap-2.5 w-full">
                     <div className="Zoom-img-container flex gap-2.5-half w-full">
                          <Zoom> 
-                             <img src={this.props.image1} alt="Image"   className="max-w-[800px] w-full max-h-[350px] md:max-h-[550px] h-[550px] object-cover"/>
+                             <img src={this.props.image1} alt="Image1"   className="max-w-[800px] w-full max-h-[350px] md:max-h-[550px] h-[550px] object-cover"/>
                         </Zoom>
                     </div>
                     <div className="Zoom-img-container flex gap-2.5-half w-full">
                          <Zoom> 
-                             <img src={this.props.image2} alt="Image"   className="max-w-[800px] w-full max-h-[350px] md:max-h-[550px] h-[550px] object-cover" />
+                             <img src={this.props.image2} alt="Image2"   className="max-w-[800px] w-full max-h-[350px] md:max-h-[550px] h-[550px] object-cover" />
                         </Zoom>
                     </div>
                     </div>
                     
-                    <div className="Zoom-img-container mt-2.5">
+                    <div className=" mt-2.5">
                     <Zoom>
                     <img src={this.props.image3} className="w-full h-auto mb-[40px]"/>
                     </Zoom>
