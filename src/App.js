@@ -1,9 +1,11 @@
 import './App.css';
 
 import { Route } from 'react-router-dom';
+import { useAuthenticate } from './hooks/useAuthenticate';
+import ScrollToTop from './ScrollToTop';
+
 import PasswordComponent from './components/PasswordComponent';
 import Navbar from './components/Navbar'
-
 import Home from './pages/Home';
 import About from './pages/About';
 import MenuUiux from './pages/MenuUiux';
@@ -17,10 +19,9 @@ import PostRebrand from './pages/PostRebrand';
 import PostWeatherApp from './pages/PostWeatherApp';
 import PostFlexibleContent from './pages/PostFlexibleContent';
 import PostSitewideCTA from './pages/PostSitewideCTA';
+import PostPreference from './pages/PostPreference';
+import PostRewards from './pages/PostRewards';
 
-
-import ScrollToTop from './ScrollToTop';
-import { useAuthenticate } from './hooks/useAuthenticate';
 
 function App() {
 
@@ -43,6 +44,9 @@ function App() {
         <Route exact path="/post-weather-app"><PostWeatherApp /></Route>
         <Route exact path="/post-flexible-content"><PostFlexibleContent /></Route>
         <Route exact path="/post-sitewide-cta"><PostSitewideCTA /></Route>
+        <Route exact path="/post-preference"><PostPreference /></Route>
+        <Route exact path="/post-rewards"><PostRewards /></Route>
+
 
 
       <Footer />

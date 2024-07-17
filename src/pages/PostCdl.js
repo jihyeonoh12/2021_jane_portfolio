@@ -52,7 +52,7 @@ class PostCdl extends React.Component {
                 Redesign the logo to align with the new Fresh N' Lean branding style. Rebuild the website using a PHP template and ACF (Advanced Custom Fields) for simplified content management by the website manager.
                 "
                  h3="" p=""/>
-                <PostGallery image1={content5} image2={content6} image3={content7} title="Final Design And Page" body="The final design and screenshots of the website." button="This is Button" class="hidden"/>
+                <PostGallery image1={content5} image2={content6} image3={content7} title="Final Design And Page" body="The final design and screenshots of the website." button="Go To CDL website" url="https://www.cdlmeals.com/" />
                 <PostOutcome classes="hidden" image={content8} title="Results And Learnings" 
                 body="
                 We were unable to measure success as we did not launch it on an analytics program, but it was a valuable learning experience for me. This project allowed me to grasp the fundamentals of PHP templates and ACF fields, enabling other team members to manage content without needing to update code directly.                " button="This is Button"/>

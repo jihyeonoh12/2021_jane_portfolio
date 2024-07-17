@@ -60,7 +60,7 @@ class PostRebrand extends React.Component {
                 Based on our data, we discovered that male customers have a higher customer lifetime value compared to female customers. To test this hypothesis, we decided to update our brand with a more masculine design.
                 "
                  h3="" p=""/>
-                <PostGallery image1={content7} image2={content8} image3={content9} title="Final Design System" body="Logo, Typography, and Color Scheme"  class="hidden"/>
+                <PostGallery image1={content7} image2={content8} image3={content9} title="Final Design System" body="Logo, Typography, and Color Scheme" />
                 <PostFooter />
                 </div>
             </div>

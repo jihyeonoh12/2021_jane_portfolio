@@ -3,8 +3,7 @@ import React from 'react';
 // class PostHero extends React.Component {
 
 const PostHero = (props) => {
-        const { image, company, date, title, role1, role2, role3, role4, role5 } = props;
-
+    const { image, company, date, title, role1, role2, role3, role4, role5 } = props;
 
     return(
         <div className="max-w-[1200px] w-full mx-auto mt-[12px] mb-[40px] container">

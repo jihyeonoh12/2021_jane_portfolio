@@ -10,6 +10,7 @@ import thumb_weather_app from '../images/weather_app/thumb.jpeg';
 import thumb_preference from '../images/preference/Preference.jpg';
 import thumb_flexibleContent from '../images/flexible_content/FlexibleContent.jpg';
 import thumb_sitewide_cta from '../images/sitewide_cta/PromoCTA.jpg';
+import thumb_rewards from '../images/rewards/Rewards.jpg';
 
 
 import { NavLink } from 'react-router-dom';
@@ -20,7 +21,8 @@ class Body extends React.Component {
             <div className="body">
             <div className="body_container">
                 <NavLink to="/post-sitewide-cta"><Card preheader="coding" image={thumb_sitewide_cta} title="Sitewide Promo CTA" description="Creating Automated CTA Buttons That Applies Promo Code"/></NavLink>
-                <NavLink to="/post-sitewide-cta"><Card preheader="coding" image={thumb_preference} title="Preference base meal plan" description="Converting meal plan base into preference base"/></NavLink>
+                <NavLink to="/post-rewards"><Card preheader="coding" image={thumb_rewards} title="Rewards & Referral" description="Creating Automated CTA Buttons That Applies Promo Code"/></NavLink>
+                <NavLink to="/post-preference"><Card preheader="coding" image={thumb_preference} title="Preference base" description="Converting meal plan base into preference base"/></NavLink>
                 <NavLink to="/post-flexible-content"><Card preheader="coding" image={thumb_flexibleContent} title="Flexible Content" description="Refactor WordPress templates using flexible content"/></NavLink>
                 <NavLink to="/post-company"><Card preheader="coding, design" image={thumb_company} title="Company Page" description="Design and styling of the company page"/></NavLink>
                 <NavLink to="/post-cdl"><Card preheader="coding, design" image={thumb_cdl} title="CDL Meals" description="Rebranding and Rebuiding CDL website"/></NavLink>
