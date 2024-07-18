@@ -579,6 +579,10 @@ video {
   }
 }
 
+.visible {
+  visibility: visible;
+}
+
 .static {
   position: static;
 }
@@ -647,10 +651,6 @@ video {
 
 .mb-2\.5 {
   margin-bottom: 0.625rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
 }
 
 .mb-\[40px\] {
@@ -783,12 +783,12 @@ video {
 
 @keyframes fadeOut {
   0% {
-    opacity: 0%;
+    opacity: 0;
     margin-bottom: 50px;
   }
 
   100% {
-    opacity: 100%;
+    opacity: 1;
     margin-bottom: 10px;
   }
 }
@@ -845,15 +845,6 @@ video {
   border-top-width: 1px;
 }
 
-.border-dashed {
-  border-style: dashed;
-}
-
-.border-black {
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
-}
-
 .border-blue {
   --tw-border-opacity: 1;
   border-color: rgb(46 140 255 / var(--tw-border-opacity));
@@ -872,6 +863,11 @@ video {
 .bg-green {
   --tw-bg-opacity: 1;
   background-color: rgb(0 235 121 / var(--tw-bg-opacity));
+}
+
+.bg-themeColor {
+  --tw-bg-opacity: 1;
+  background-color: rgb(36 76 255 / var(--tw-bg-opacity));
 }
 
 .bg-yellow {
@@ -926,9 +922,19 @@ video {
   padding-right: 0.625rem;
 }
 
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
 .px-\[20px\] {
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .py-\[120px\] {
@@ -976,6 +982,10 @@ video {
 
 .font-bold {
   font-weight: 700;
+}
+
+.font-extrabold {
+  font-weight: 800;
 }
 
 .capitalize {
@@ -1100,9 +1110,10 @@ p, .p {
 
 /*---text styles ---*/
 
-button {
+button, .button {
   font-size: 18px;
-  padding: 13px;
+  font-weight: 800;
+  padding: 25px 30px;
   max-width: 500px;
   width: 100%;
   border-radius: 10px;
@@ -1110,15 +1121,15 @@ button {
   color: white;
 }
 
-.button {
-  font-size: 22px;
-  line-height: 30px;
-  font-weight: 700;
-  color: white;
-  background-color: #7C90FF;
-  padding: 20px 40px;
-  min-width: 300px;
-}
+/* .button {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 700;
+    color: white;
+    background-color: #7C90FF;
+    padding: 20px 40px;
+    min-width: 300px;
+} */
 
 .button330 {
   max-width: 330px !important;
@@ -1208,6 +1219,10 @@ input {
     margin-right: 1.25rem;
   }
 
+  .md\:mr-10 {
+    margin-right: 2.5rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -1244,6 +1259,10 @@ input {
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:items-center {
+    align-items: center;
   }
 
   .md\:border-r-2 {

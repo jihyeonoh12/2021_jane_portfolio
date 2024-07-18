@@ -21,6 +21,8 @@ import PostFlexibleContent from './pages/PostFlexibleContent';
 import PostSitewideCTA from './pages/PostSitewideCTA';
 import PostPreference from './pages/PostPreference';
 import PostRewards from './pages/PostRewards';
+import PostSnackPopup from './pages/PostSnackPopup';
+import PostFnlNewHome from './pages/PostFnlNewHome';
 
 
 function App() {
@@ -46,6 +48,8 @@ function App() {
         <Route exact path="/post-sitewide-cta"><PostSitewideCTA /></Route>
         <Route exact path="/post-preference"><PostPreference /></Route>
         <Route exact path="/post-rewards"><PostRewards /></Route>
+        <Route exact path="/post-snack-popup"><PostSnackPopup /></Route>
+        <Route exact path="/post-fnl-new-home"><PostFnlNewHome /></Route>
 
 
 

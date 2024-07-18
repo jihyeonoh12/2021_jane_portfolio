@@ -7,7 +7,7 @@ const useAuthenticate = () => {
 
 
   const handlePasswordSubmit = (enteredPassword) => {
-    if (enteredPassword === 'test') {
+    if (enteredPassword === 'JN123') {
       localStorage.setItem('authenticated', 'true');
       setAuthenticated(true);
     } else {

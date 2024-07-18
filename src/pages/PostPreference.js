@@ -18,8 +18,11 @@ const PostPreference = () => {
         <div className="post_body">
             <div className="post_container">
             <PostHero image={content1} title="Implementing preference-based system in the dashboard" description=""
-                    from="Company" company="Fresh N Lean" date="August 2022" role1="• Creating global promo ACF" role2="• Creating a CTA button function" role3="• Replacing static CTA buttons"
-                />
+                    from="Company" company="Fresh N Lean" date="August 2022" 
+                    role1="• Retrieving data via GraphQL queries
+                    " role3="• Managing data with React Hooks
+                    " role2="• Updating query structure"
+                    role4="• Creating a component to match the design"                />
             <PostContent classes="" image={content2} title="Project Objectives" 
             body="
             The objective of this project is to enable users to mix and match different meal plans and filter ingredients for their meal selections. The issue with the original meal plan system was that users could only choose meals from a single plan, which we found too restrictive. To address this, we transformed the meal plan subscription into a preference-based system, incorporating fields such as diet, protein, allergy, and exclusion." 

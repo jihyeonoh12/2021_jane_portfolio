@@ -18,18 +18,15 @@ module.exports = {
         card: '0px 0px 15px #8383961f',
         navbar: '0px 0px 15px #8383961f'
       },
-      // that is animation class
       animation: {
         fade: 'fadeOut 1s ease-in-out',
       },
-
-      // that is actual animation
-      keyframes: theme => ({
+      keyframes: {
         fadeOut: {
-          '0%': { opacity: '0%', marginBottom: '50px' },
-          '100%': { opacity: '100%', marginBottom: '10px' },
-        },
-      }),
+          '0%': { opacity: '0', marginBottom: '50px' },
+          '100%': { opacity: '1', marginBottom: '10px' },
+        }
+      }
     },
   },
   plugins: [],

@@ -15,7 +15,7 @@ const PostContent = ({
         return (
            <div className={"max-w-[1200px] mx-auto my-[60px] w-full block container " + containerClass} >
              { text && fullContainer ? ( 
-             <div className="m-auto py-[40px] text-left w-full">
+             <div className="m-auto py-[40px] text-left w-full px-[20px]">
                 <div dangerouslySetInnerHTML={{ __html: text }}></div>
             </div> 
             ) : null}

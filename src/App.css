@@ -96,9 +96,10 @@ p, .p {
   }
 /*---text styles ---*/
 
-button {
+button, .button {
     font-size: 18px;
-    padding: 13px;
+    font-weight: 800;
+    padding: 25px 30px;
     max-width: 500px;
     width: 100%;
     border-radius: 10px;
@@ -106,7 +107,7 @@ button {
     color: white;
 }
 
-.button {
+/* .button {
     font-size: 22px;
     line-height: 30px;
     font-weight: 700;
@@ -114,7 +115,7 @@ button {
     background-color: #7C90FF;
     padding: 20px 40px;
     min-width: 300px;
-}
+} */
 .button330 {
     max-width: 330px !important;
     width: 100%;

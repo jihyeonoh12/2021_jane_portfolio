@@ -3,22 +3,21 @@ import ModalImage from "react-modal-image";
 
  
 const PostGallery = (props) => {
-    const { title, body, button, image1, image2, image3 } = props;
+    const { title, body, button, image1, image2, image3, url } = props;
     const domainUrl = window.location.origin;
-
 
    console.log(image1);
     return (
         <div className="max-w-[1200px] w-full mx-auto my-[12px] container">
             { title && (
-                <div className="flex gap-2.5 space-between mb-10">
-                    <div className="text-left">
+                <div className="flex-col md:flex-row flex gap-2.5 justify-between mb-10 md:items-center">
+                    <div className="text-left px-[20px]">
                         <h2>{title}</h2>
                         <p>{body}</p>
                     </div>
                     {button && (
-                    <div>
-                        <h4>{button}</h4>
+                    <div className="flex">
+                        <a className="rounded bg-themeColor text-white px-5 py-4 h4" href={url}>{button}</a>
                     </div>
                     )}
                 </div>

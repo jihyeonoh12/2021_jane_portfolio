@@ -18,14 +18,14 @@ class Navbar extends React.Component {
                 <NavLink to="/" className="navbar_logo">Jane N.</NavLink>
                 <div className="navbar_menu">
                 <NavLink to="/about">About</NavLink>
-                    <div class="dropdown">
+                    {/* <div class="dropdown">
                         <button className="dropbtn">Work<i className="fa fa-caret-down"></i></button>
                         <div className="dropdown-content">
                         <NavLink to="/uiux">Design</NavLink>
                         <NavLink to="/coding">Coding</NavLink>
      
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <a href="javascript:void(0);" className="icon" onClick={myFunction}>&#9776;</a>
             </div>
