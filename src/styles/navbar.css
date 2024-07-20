@@ -112,13 +112,15 @@ a.navbar_logo {
   display: block;
 }
 
-/* @media screen and (min-width: 600px) {
-      .dropdown-content{
-      margin-left: -90px;
-      margin-top: 17px;
-      background-color: #efeff9;
-      }
-    } */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .dropdown:hover .dropdown-content {
+    display: contents;
+  }
+    }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
