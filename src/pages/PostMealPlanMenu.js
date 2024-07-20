@@ -53,7 +53,7 @@ class PostMealPlanMenu extends React.Component {
                 Assign each meal plan a thematic color and concept (e.g., paleo with a rustic vibe) to clearly differentiate them. Communicate and educate users on the key value propositions of each meal plan using icons and a breakdown of macro nutrients.
                 "
                  h3="" p=""/>
-                <PostGallery image1={content6} image2={content7} image3={content8} title="Final Design" body="Final design implemented to the website" button="This is Button" />
+                <PostGallery image1={content6} image2={content7} image3={content8} title="Final Design" body="Final design implemented to the website" button="Menu" url='https://www.freshnlean.com/menu' button2='Meal Plans' url2="https://www.freshnlean.com/meal-plans/" />
                 <PostOutcome image={content9} title="Results And Learnings" 
                 body="
                 We conducted AB testing on VWO and observed a 25% improvement with the new flow. Two months after implementing the new flow on the production site, we noted a 15% decrease in bounce rate, a 14% increase in session duration, a 20% rise in revenue, and a 12% increase in transactions, as reported by Google Analytics.

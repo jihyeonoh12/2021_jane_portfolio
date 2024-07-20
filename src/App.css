@@ -59,6 +59,13 @@ p, .p {
     margin: 0;
 }
 
+a.btn {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 800;
+    display: block;
+}
+
 @media screen and (max-width: 769px) {
     h1, .h1 {
         font-size: 30px;
@@ -93,10 +100,14 @@ p, .p {
         line-height: 20px;
 
     }
+    a.btn {
+        font-size: 18px;
+        line-height: 23px;
+    }
   }
 /*---text styles ---*/
 
-button, .button {
+/* button, .button {
     font-size: 18px;
     font-weight: 800;
     padding: 25px 30px;
@@ -105,7 +116,8 @@ button, .button {
     border-radius: 10px;
     background-color: #244cff;
     color: white;
-}
+    display: block;
+} */
 
 /* .button {
     font-size: 22px;

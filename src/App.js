@@ -9,6 +9,8 @@ import Navbar from './components/Navbar'
 import Home from './pages/Home';
 import About from './pages/About';
 import MenuUiux from './pages/MenuUiux';
+import MenuCoding from './pages/MenuCoding';
+
 import Footer from './components/Footer';
 
 import PostProteinPlus from './pages/PostProteinPlus';
@@ -23,6 +25,7 @@ import PostPreference from './pages/PostPreference';
 import PostRewards from './pages/PostRewards';
 import PostSnackPopup from './pages/PostSnackPopup';
 import PostFnlNewHome from './pages/PostFnlNewHome';
+import PostDashboard from './pages/PostDashboard';
 
 
 function App() {
@@ -38,6 +41,7 @@ function App() {
         <Route exact path="/"><Home /></Route>
         <Route exact path="/about"><About /></Route>
         <Route exact path="/uiux"><MenuUiux /></Route>
+        <Route exact path="/coding"><MenuCoding /></Route>
         <Route exact path="/post-protein-plus"><PostProteinPlus /></Route>
         <Route exact path="/post-company"><PostCompany /></Route>
         <Route exact path="/post-cdl"><PostCdl /></Route>
@@ -50,7 +54,7 @@ function App() {
         <Route exact path="/post-rewards"><PostRewards /></Route>
         <Route exact path="/post-snack-popup"><PostSnackPopup /></Route>
         <Route exact path="/post-fnl-new-home"><PostFnlNewHome /></Route>
-
+        <Route exact path="/post-dashboard"><PostDashboard /></Route>
 
 
       <Footer />

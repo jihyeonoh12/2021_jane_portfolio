@@ -43,8 +43,12 @@ class PostCompany extends React.Component {
                 To feature multiple topics on this page, we've chosen to divide the content into four separate pages accessible through a menu bar.
                 "
                  h3="" p=""/>
-                <PostGallery image1={content5} image2={content6} image3={content7} title="Final design / pages" />
-                <PostOutcome image={content8} classes="hidden" title="Result / Learnings" body="
+                <PostGallery 
+                 button='View Live Page'
+                 url='https://www.freshnlean.com/about-us/'
+                image1={content5} image2={content6} image3={content7} title="Final design / pages" />
+                <PostOutcome 
+                image={content8} classes="hidden" title="Result / Learnings" body="
 This project provided valuable front-end development experience for me, especially in utilizing libraries like 'Slick Slider' for creating a history timeline component and popup modules.                " button=""/>
                 <PostFooter />
                 </div>

@@ -3,7 +3,7 @@ import ModalImage from "react-modal-image";
 
  
 const PostGallery = (props) => {
-    const { title, body, button, image1, image2, image3, url } = props;
+    const { title, body, button, image1, image2, image3, url, button2, url2 } = props;
     const domainUrl = window.location.origin;
 
    console.log(image1);
@@ -15,14 +15,18 @@ const PostGallery = (props) => {
                         <h2>{title}</h2>
                         <p>{body}</p>
                     </div>
+                    <div className="flex gap-2.5">
                     {button && (
-                    <div className="flex">
-                        <a className="rounded bg-themeColor text-white px-5 py-4 h4" href={url}>{button}</a>
-                    </div>
+                        <a className="rounded bg-themeColor hover:bg-themeDark text-white px-5 py-4 btn min-w-[150px] w-full text-center text-nowrap" href={url} target="_blank" rel="noreferrer">{button}</a>
                     )}
+                    {button2 && (
+                        <a className="rounded bg-themeColor hover:bg-themeDark text-white px-5 py-4 btn min-w-[150px] w-full text-center text-nowrap" href={url2} target="_blank" rel="noreferrer">{button2}</a>
+                    )}
+                    </div>
                 </div>
             )}
             <div>
+                {image1 && image2 ? (
                 <div className="flex gap-2.5 w-full">
                     <div className="Zoom-img-container flex gap-2.5-half w-full">
                         <ModalImage
@@ -43,14 +47,17 @@ const PostGallery = (props) => {
                         />
                     </div>
                 </div>
+                ) : null}
                 <div className=" mt-2.5">
-                <ModalImage
-                    className="w-full h-auto mb-[40px] object-top"
-                    small={domainUrl+image3}
-                    large={domainUrl+image3}
-                    hideDownload={true}
-                    alt=''
-                />
+                    {image3 && (
+                        <ModalImage
+                            className="w-full mb-[40px] object-top max-h-[350px] md:max-h-[550px] h-[550px] object-cover"
+                            small={domainUrl+image3}
+                            large={domainUrl+image3}
+                            hideDownload={true}
+                            alt=''
+                        />
+                    )}
                 </div>
             </div>
         </div>

@@ -17,10 +17,6 @@ class PostWeatherApp extends React.Component {
                 <PostHero image={hero_banner} title="Weather Dashboard" 
                     from="From" company="UCI Bootcamp" date="November 2019" role1="• Retrieving data via API Calls" role2="• Storing search history in Local Storage" role3="• Rendering the page with jQuery" role4="• Styling the page using Bootstrap" role5=""
                 />
-                {/* <PostContent classes="" image={content1} title="User Story" 
-                body="
-                As a traveler, I want to see the weather outlook for multiple cities so that I can plan a trip accordingly
-                " h3="" p=""/> */}
 
                 <PostContentList classes="" image={content2} title="This project involves:" 
                 text={'• Utilizing the OpenWeather API to fetch weather data  \n • Employing AJAX to interact with the API and retrieve data in JSON format \n • Using jQuery to dynamically display retrieved data in HTML \n • Utilizing localStorage to persist search history'} />

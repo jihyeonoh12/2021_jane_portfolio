@@ -5,7 +5,8 @@ const PasswordComponent = ({ onPasswordSubmit, errorMsg }) => {
   const [password, setPassword] = useState('');
 
   const handlePasswordChange = (e) => {
-    setPassword(e.target.value);
+    const userInput = (e.target.value).toLowerCase();
+    setPassword(userInput);
   };
 
   const handleSubmit = (e) => {
@@ -22,7 +23,7 @@ const PasswordComponent = ({ onPasswordSubmit, errorMsg }) => {
           Password:
         </label>
         <input className='w-full' type="password" value={password} onChange={handlePasswordChange} />
-        <button type="submit">Enter</button>
+        <button type="submit" className='rounded-lg bg-themeColor hover:bg-themeDark text-white px-5 py-4 btn w-full'>Enter</button>
         {errorMsg && (
           <p className='text-error font-bold'>{errorMsg}</p>
         )}

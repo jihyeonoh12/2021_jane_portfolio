@@ -626,6 +626,11 @@ video {
   margin-right: auto;
 }
 
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
 .my-\[12px\] {
   margin-top: 12px;
   margin-bottom: 12px;
@@ -655,6 +660,10 @@ video {
 
 .mb-\[40px\] {
   margin-bottom: 40px;
+}
+
+.ml-0 {
+  margin-left: 0px;
 }
 
 .mr-2 {
@@ -765,8 +774,18 @@ video {
   width: 800px;
 }
 
+.w-fit {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 .w-full {
   width: 100%;
+}
+
+.min-w-\[150px\] {
+  min-width: 150px;
 }
 
 .max-w-\[1200px\] {
@@ -841,6 +860,14 @@ video {
   border-radius: 0.5rem;
 }
 
+.rounded-md {
+  border-radius: 0.375rem;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
 .border-t {
   border-top-width: 1px;
 }
@@ -848,6 +875,11 @@ video {
 .border-blue {
   --tw-border-opacity: 1;
   border-color: rgb(46 140 255 / var(--tw-border-opacity));
+}
+
+.border-themeColor {
+  --tw-border-opacity: 1;
+  border-color: rgb(36 76 255 / var(--tw-border-opacity));
 }
 
 .bg-background {
@@ -997,6 +1029,11 @@ video {
   color: rgb(255 47 5 / var(--tw-text-opacity));
 }
 
+.text-themeColor {
+  --tw-text-opacity: 1;
+  color: rgb(36 76 255 / var(--tw-text-opacity));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -1073,6 +1110,13 @@ p, .p {
   margin: 0;
 }
 
+a.btn {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 800;
+  display: block;
+}
+
 @media screen and (max-width: 769px) {
   h1, .h1 {
     font-size: 30px;
@@ -1106,20 +1150,26 @@ p, .p {
     font-size: 16px;
     line-height: 20px;
   }
+
+  a.btn {
+    font-size: 18px;
+    line-height: 23px;
+  }
 }
 
 /*---text styles ---*/
 
-button, .button {
-  font-size: 18px;
-  font-weight: 800;
-  padding: 25px 30px;
-  max-width: 500px;
-  width: 100%;
-  border-radius: 10px;
-  background-color: #244cff;
-  color: white;
-}
+/* button, .button {
+    font-size: 18px;
+    font-weight: 800;
+    padding: 25px 30px;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #244cff;
+    color: white;
+    display: block;
+} */
 
 /* .button {
     font-size: 22px;
@@ -1211,6 +1261,21 @@ input {
 
 .codeBlock div {
   border-radius: 10px !important;
+}
+
+.hover\:border-themeDark:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(27 60 209 / var(--tw-border-opacity));
+}
+
+.hover\:bg-themeDark:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(27 60 209 / var(--tw-bg-opacity));
+}
+
+.hover\:text-themeDark:hover {
+  --tw-text-opacity: 1;
+  color: rgb(27 60 209 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {
