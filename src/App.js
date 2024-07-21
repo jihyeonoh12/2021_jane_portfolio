@@ -26,6 +26,10 @@ import PostRewards from './pages/PostRewards';
 import PostSnackPopup from './pages/PostSnackPopup';
 import PostFnlNewHome from './pages/PostFnlNewHome';
 import PostDashboard from './pages/PostDashboard';
+import PostCheffy from './pages/PostCheffy';
+import PostMeme from './pages/PostMeme';
+import PostNote from './pages/PostNote';
+
 
 
 function App() {
@@ -55,6 +59,9 @@ function App() {
         <Route exact path="/post-snack-popup"><PostSnackPopup /></Route>
         <Route exact path="/post-fnl-new-home"><PostFnlNewHome /></Route>
         <Route exact path="/post-dashboard"><PostDashboard /></Route>
+        <Route exact path="/post-cheffy"><PostCheffy /></Route>
+        <Route exact path="/post-meme"><PostMeme /></Route>
+        <Route exact path="/post-note"><PostNote /></Route>
 
 
       <Footer />

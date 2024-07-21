@@ -10,6 +10,9 @@ import thumb_popup from '../images/snack_popup/Rectangle 1698.png';
 import thumb_fnl_homepage from '../images/fnl_homepage/FNL_thumb.jpg';
 import thumb_cdl from '../images/cdl/cdl.jpg';
 import thumb_weather_app from '../images/weather_app/thumb.jpeg';
+import thumb_cheffy from '../images/cheffy/Cheffy logo.jpg';
+import thumb_meme from '../images/meme/Meme_thumb.jpg';
+import thumb_note from '../images/note/NoteApp_thumb.jpg';
 
 
 import { NavLink } from 'react-router-dom';
@@ -28,7 +31,11 @@ class MenuCoding extends React.Component {
                 <NavLink to="/post-flexible-content"><Card preheader="coding" image={thumb_flexibleContent} title="Flexible Content" description="Refactor WordPress templates using flexible content"/></NavLink>
                 <NavLink to="/post-cdl"><Card preheader="coding, design" image={thumb_cdl} title="CDL Meals" description="Rebranding and Rebuiding CDL website"/></NavLink>
                 <NavLink to="/post-company"><Card preheader="coding, design" image={thumb_company} title="Company Page" description="Designing and Building Company Page"/></NavLink>
+                <NavLink to="/post-cheffy"><Card preheader="coding" image={thumb_cheffy} title="Recipe and Grocery Service" description="Building websites for recipe search and grocery shopping"/></NavLink>
                 <NavLink to="/post-weather-app"><Card preheader="coding" image={thumb_weather_app} title="Weather Dashboard" description="Building Weather Dashboard Utilizing the OpenWeather API"/></NavLink>
+                <NavLink to="/post-meme"><Card preheader="coding" image={thumb_meme} title="Meme Generator" description="Building Meme Generating Website"/></NavLink>
+                <NavLink to="/post-note"><Card preheader="coding" image={thumb_note} title="Note-taking App" description="Building note-taking app"/></NavLink>
+
 
                 </div>
             </div>

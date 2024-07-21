@@ -14,8 +14,13 @@ const PostHero = (props) => {
                     <h1 className='md:mr-10'>{title}</h1>
                     <div className='flex'>
                 <h5>{company}</h5>
-                <span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
-                <h5>{date}</h5>
+                { date && (
+                    <div className="flex">
+                        <span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
+                        <h5>{date}</h5>
+                    </div>
+                )}
+                
                 </div>
                     </div>
                     <div className="md:w-fit w-full box-border justify-end block md:flex gap-2.5 md:mx-5">

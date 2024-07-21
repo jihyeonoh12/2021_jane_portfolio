@@ -5,14 +5,13 @@ import PostContent from '../components/PostContent'
 import PostGallery from '../components/PostGallery'
 import PostOutcome from '../components/PostOutcome'
 import PostFooter from '../components/PostFooter'
-import Footer from '../components/Footer'
 import PostContentList from '../components/PostContentList'
 
 
 import hero_banner from '../images/cdl/meal_box.jpg';
 import content1 from '../images/cdl/product.jpg';
 import content2 from '../images/cdl/target_audience.jpg';
-import content3 from '../images/cdl/value_prop.jpg';
+// import content3 from '../images/cdl/value_prop.jpg';
 import content4 from '../images/cdl/design_solution.jpg';
 import content5 from '../images/cdl/logo.jpg';
 import content6 from '../images/cdl/mobile.jpg';
@@ -35,10 +34,6 @@ class PostCdl extends React.Component {
 
                 <PostContentList classes="flex-row-reverse" image={content2} title="Target Audience" 
                 text={'• Age group : 25 – 62yrs \n • Commercially licensed driver \n • Drivers suffer from healthy problem due to unhealthy diet \n • Drivers who do not have time to cook but want to eat healthy food'} />
-            
-                {/* <PostContentList classes="" image={content3} title="Value props" 
-                text={'• Ready in 3 minutes. Easy to carry around. Also can purchase a potable food warmer. \n • Shipped free to your home or any specific terminal \n • Nutrient dense meal for high performance'} />
-                 */}
 
                 <PostContent classes="" image={content9} title="Problem / Issue" 
                 body="
