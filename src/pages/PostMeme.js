@@ -16,8 +16,8 @@ const PostMeme = () => {
             <PostHero image={hero_banner} title="Building websites for recipe search and grocery shopping" 
                 from="From" company="Personal Project"  role1="• Retrieving data via API Calls" role2="• Testing the App with Jest" role3="•  Managing state using React Hook" 
             />
-            <PostContent classes="" image={content1} title="Project Objective" 
-            body="The objective of this project is to build a website that suggests and allows users to search recipes, and assists with grocery shopping by automatically adding recipe ingredients to the nearest grocery store's website."
+            <PostContent classes="" image={content1} title="Final Website/App" 
+            body=""
             button="View Website" url="https://jihyeonoh12.github.io/meme_generator/"
             />
             <PostFooter />

@@ -15,8 +15,8 @@ const PostNote = () => {
             <PostHero title="Building note-taking app" 
                 from="From" company="Personal Project"  role1="•  Managing state using React Hook" role2="• Styling page using Bootstrap" 
             />
-            <PostContent classes="" image={content1} title="Project Objective" 
-            body="The objective of this project is to build a website that suggests and allows users to search recipes, and assists with grocery shopping by automatically adding recipe ingredients to the nearest grocery store's website." 
+            <PostContent classes="" image={content1} title="Final Website/App" 
+            body="" 
             button="View Website"
             url="https://jihyeonoh12.github.io/note-app/"
             />
