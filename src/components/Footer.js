@@ -1,6 +1,5 @@
 import React from 'react'
 import '../styles/footer.css';
-import resume  from '../images/2024_Resume.pdf'
 import { NavLink } from 'react-router-dom';
 
 
@@ -13,9 +12,6 @@ class Footer extends React.Component {
                     <NavLink to="/uiux">UI/UX</NavLink>
                     <span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
                     <NavLink to="/coding">Coding</NavLink>
-                    <span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
-                    <a href={resume} target="_blank" rel="noreferrer">View Resume</a>
-
                 </div>
                 <div className="text-center md:text-right">
                      <h5 className='font-bold'>Built with React JS © 2021 by Jane Noh</h5>
