@@ -6,7 +6,7 @@ const PostOutcome = ({ image, title, body, url, classes, button }) => {
            <div className="max-w-[1200px] w-full mx-auto my-[60px] container">
                 <div className="outcome-cotent md:flex gap-2.5 space-between">
                     <div className="md:w-[30%]">
-                        <img src={image} className="w-[800px] w-full md:max-h-[300px] h-full"/>
+                        <img src={image} className="w-[800px] md:max-h-[300px] h-full"/>
                     </div>
                     <div className="m-auto py-[40px] px-[20px] md:px-[60px] text-left md:w-[70%]">
                         <h2>{title}</h2>
