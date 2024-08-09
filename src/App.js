@@ -1,10 +1,10 @@
 import './App.css';
 
 import { Route } from 'react-router-dom';
-import { useAuthenticate } from './hooks/useAuthenticate';
+// import { useAuthenticate } from './hooks/useAuthenticate';
 import ScrollToTop from './ScrollToTop';
 
-import PasswordComponent from './components/PasswordComponent';
+// import PasswordComponent from './components/PasswordComponent';
 import Navbar from './components/Navbar'
 import Home from './pages/Home';
 import About from './pages/About';
@@ -34,10 +34,10 @@ import PostNote from './pages/PostNote';
 
 function App() {
 
-  const { authenticated, handlePasswordSubmit, errorMsg } = useAuthenticate();
+  // const { authenticated, handlePasswordSubmit, errorMsg } = useAuthenticate();
 
   const renderContent = () => {
-    if (authenticated) {
+    // if (authenticated) {
       return (
       <div className="App mt-[120px]">
       <Navbar />
@@ -67,9 +67,9 @@ function App() {
       <Footer />
     </div>
       );
-    } else {
-      return <PasswordComponent onPasswordSubmit={handlePasswordSubmit} errorMsg={errorMsg}/>;
-    }
+    // } else {
+    //   return <PasswordComponent onPasswordSubmit={handlePasswordSubmit} errorMsg={errorMsg}/>;
+    // }
   };
 
   return <div>{renderContent()}</div>;
