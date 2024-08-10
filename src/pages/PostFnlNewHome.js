@@ -34,7 +34,7 @@ const PostFnlNewHome = () => {
                 </p>
                 '
              />
-            <PostGallery title="Final Design And Layout" image1={content3} image2={content4} button='View Live Page' url='http://freshnlean.com/fnl' />
+            <PostGallery title="Final Design And Layout" image1={content3} image2={content4} button='View Live Page' url='https://fnlstaging.wpengine.com/fnl/' />
             <PostOutcome image={content5} classes="hidden" title="Learning" body="
                 This project was a great opportunity for me to refine my ACF and PHP component-building skills. I enjoyed crafting each component with a focus on customization, ensuring that future updates won't require any static code changes.
                 " />
